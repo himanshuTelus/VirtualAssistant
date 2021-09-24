@@ -7,22 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D919FD3F26FDF12000AE4E2B /* VirtualAssistant.docc in Sources */ = {isa = PBXBuildFile; fileRef = D919FD3E26FDF12000AE4E2B /* VirtualAssistant.docc */; };
-		D919FD4026FDF12000AE4E2B /* VirtualAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = D919FD3D26FDF12000AE4E2B /* VirtualAssistant.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D919FD4726FDF1EB00AE4E2B /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D919FD4626FDF1EB00AE4E2B /* HelloWorld.swift */; };
-		D919FD4926FDF64500AE4E2B /* VirtualAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D919FD4826FDF64500AE4E2B /* VirtualAsset.xcassets */; };
+		D919FD5826FDF8DA00AE4E2B /* VirtualAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = D919FD5726FDF8DA00AE4E2B /* VirtualAssistant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D919FD3A26FDF12000AE4E2B /* VirtualAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VirtualAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D919FD3D26FDF12000AE4E2B /* VirtualAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualAssistant.h; sourceTree = "<group>"; };
-		D919FD3E26FDF12000AE4E2B /* VirtualAssistant.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = VirtualAssistant.docc; sourceTree = "<group>"; };
-		D919FD4626FDF1EB00AE4E2B /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
-		D919FD4826FDF64500AE4E2B /* VirtualAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = VirtualAsset.xcassets; sourceTree = "<group>"; };
+		D919FD5426FDF8DA00AE4E2B /* VirtualAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VirtualAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D919FD5726FDF8DA00AE4E2B /* VirtualAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualAssistant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D919FD3726FDF12000AE4E2B /* Frameworks */ = {
+		D919FD5126FDF8DA00AE4E2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,29 +26,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D919FD3026FDF12000AE4E2B = {
+		D919FD4A26FDF8DA00AE4E2B = {
 			isa = PBXGroup;
 			children = (
-				D919FD3C26FDF12000AE4E2B /* VirtualAssistant */,
-				D919FD3B26FDF12000AE4E2B /* Products */,
+				D919FD5626FDF8DA00AE4E2B /* VirtualAssistant */,
+				D919FD5526FDF8DA00AE4E2B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D919FD3B26FDF12000AE4E2B /* Products */ = {
+		D919FD5526FDF8DA00AE4E2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D919FD3A26FDF12000AE4E2B /* VirtualAssistant.framework */,
+				D919FD5426FDF8DA00AE4E2B /* VirtualAssistant.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D919FD3C26FDF12000AE4E2B /* VirtualAssistant */ = {
+		D919FD5626FDF8DA00AE4E2B /* VirtualAssistant */ = {
 			isa = PBXGroup;
 			children = (
-				D919FD3D26FDF12000AE4E2B /* VirtualAssistant.h */,
-				D919FD3E26FDF12000AE4E2B /* VirtualAssistant.docc */,
-				D919FD4626FDF1EB00AE4E2B /* HelloWorld.swift */,
-				D919FD4826FDF64500AE4E2B /* VirtualAsset.xcassets */,
+				D919FD5726FDF8DA00AE4E2B /* VirtualAssistant.h */,
 			);
 			path = VirtualAssistant;
 			sourceTree = "<group>";
@@ -62,25 +53,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D919FD3526FDF12000AE4E2B /* Headers */ = {
+		D919FD4F26FDF8DA00AE4E2B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D919FD4026FDF12000AE4E2B /* VirtualAssistant.h in Headers */,
+				D919FD5826FDF8DA00AE4E2B /* VirtualAssistant.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D919FD3926FDF12000AE4E2B /* VirtualAssistant */ = {
+		D919FD5326FDF8DA00AE4E2B /* VirtualAssistant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D919FD4326FDF12000AE4E2B /* Build configuration list for PBXNativeTarget "VirtualAssistant" */;
+			buildConfigurationList = D919FD5B26FDF8DA00AE4E2B /* Build configuration list for PBXNativeTarget "VirtualAssistant" */;
 			buildPhases = (
-				D919FD3526FDF12000AE4E2B /* Headers */,
-				D919FD3626FDF12000AE4E2B /* Sources */,
-				D919FD3726FDF12000AE4E2B /* Frameworks */,
-				D919FD3826FDF12000AE4E2B /* Resources */,
+				D919FD4F26FDF8DA00AE4E2B /* Headers */,
+				D919FD5026FDF8DA00AE4E2B /* Sources */,
+				D919FD5126FDF8DA00AE4E2B /* Frameworks */,
+				D919FD5226FDF8DA00AE4E2B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -88,24 +79,24 @@
 			);
 			name = VirtualAssistant;
 			productName = VirtualAssistant;
-			productReference = D919FD3A26FDF12000AE4E2B /* VirtualAssistant.framework */;
+			productReference = D919FD5426FDF8DA00AE4E2B /* VirtualAssistant.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D919FD3126FDF12000AE4E2B /* Project object */ = {
+		D919FD4B26FDF8DA00AE4E2B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					D919FD3926FDF12000AE4E2B = {
+					D919FD5326FDF8DA00AE4E2B = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = D919FD3426FDF12000AE4E2B /* Build configuration list for PBXProject "VirtualAssistant" */;
+			buildConfigurationList = D919FD4E26FDF8DA00AE4E2B /* Build configuration list for PBXProject "VirtualAssistant" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,41 +104,38 @@
 				en,
 				Base,
 			);
-			mainGroup = D919FD3026FDF12000AE4E2B;
-			productRefGroup = D919FD3B26FDF12000AE4E2B /* Products */;
+			mainGroup = D919FD4A26FDF8DA00AE4E2B;
+			productRefGroup = D919FD5526FDF8DA00AE4E2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D919FD3926FDF12000AE4E2B /* VirtualAssistant */,
+				D919FD5326FDF8DA00AE4E2B /* VirtualAssistant */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D919FD3826FDF12000AE4E2B /* Resources */ = {
+		D919FD5226FDF8DA00AE4E2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D919FD4926FDF64500AE4E2B /* VirtualAsset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D919FD3626FDF12000AE4E2B /* Sources */ = {
+		D919FD5026FDF8DA00AE4E2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D919FD3F26FDF12000AE4E2B /* VirtualAssistant.docc in Sources */,
-				D919FD4726FDF1EB00AE4E2B /* HelloWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D919FD4126FDF12000AE4E2B /* Debug */ = {
+		D919FD5926FDF8DA00AE4E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +199,7 @@
 			};
 			name = Debug;
 		};
-		D919FD4226FDF12000AE4E2B /* Release */ = {
+		D919FD5A26FDF8DA00AE4E2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,7 +257,7 @@
 			};
 			name = Release;
 		};
-		D919FD4426FDF12000AE4E2B /* Debug */ = {
+		D919FD5C26FDF8DA00AE4E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +284,7 @@
 			};
 			name = Debug;
 		};
-		D919FD4526FDF12000AE4E2B /* Release */ = {
+		D919FD5D26FDF8DA00AE4E2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -326,25 +314,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D919FD3426FDF12000AE4E2B /* Build configuration list for PBXProject "VirtualAssistant" */ = {
+		D919FD4E26FDF8DA00AE4E2B /* Build configuration list for PBXProject "VirtualAssistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D919FD4126FDF12000AE4E2B /* Debug */,
-				D919FD4226FDF12000AE4E2B /* Release */,
+				D919FD5926FDF8DA00AE4E2B /* Debug */,
+				D919FD5A26FDF8DA00AE4E2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D919FD4326FDF12000AE4E2B /* Build configuration list for PBXNativeTarget "VirtualAssistant" */ = {
+		D919FD5B26FDF8DA00AE4E2B /* Build configuration list for PBXNativeTarget "VirtualAssistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D919FD4426FDF12000AE4E2B /* Debug */,
-				D919FD4526FDF12000AE4E2B /* Release */,
+				D919FD5C26FDF8DA00AE4E2B /* Debug */,
+				D919FD5D26FDF8DA00AE4E2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D919FD3126FDF12000AE4E2B /* Project object */;
+	rootObject = D919FD4B26FDF8DA00AE4E2B /* Project object */;
 }
