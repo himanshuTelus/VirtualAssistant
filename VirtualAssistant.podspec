@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "VirtualAssistant"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   spec.summary      = "A short description of VirtualAssistant."
 
   # This description is used to generate tags and improve search results.
@@ -108,7 +108,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
-  s.resources = "VirtualAssistant/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,framework,bundle}"
+  spec.resources = "VirtualAssistant/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,framework,bundle}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
