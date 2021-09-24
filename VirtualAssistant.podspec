@@ -43,12 +43,13 @@ s.dependency 'Alamofire'
 s.dependency 'AlamofireImage'
 
 # 8
-s.source_files = "VirtualAssistant/**/*.{swift}"
+s.source_files = "**/VirtualAssistant/**/*.{swift}"
 
 # 9
-s.resources = "VirtualAssistant/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "**/VirtualAssistant/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5.0"
 
 end
+
