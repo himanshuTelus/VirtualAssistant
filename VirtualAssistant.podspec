@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "VirtualAssistant"
-  spec.version      = "0.1.4"
+  spec.version      = "0.1.5"
   spec.summary      = "A short description of VirtualAssistant."
 
   # This description is used to generate tags and improve search results.
