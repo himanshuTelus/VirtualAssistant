@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D919FD5826FDF8DA00AE4E2B /* VirtualAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = D919FD5726FDF8DA00AE4E2B /* VirtualAssistant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D919FD5F26FDFAF400AE4E2B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D919FD5E26FDFAF400AE4E2B /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D919FD5426FDF8DA00AE4E2B /* VirtualAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VirtualAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D919FD5726FDF8DA00AE4E2B /* VirtualAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualAssistant.h; sourceTree = "<group>"; };
+		D919FD5E26FDFAF400AE4E2B /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				D919FD5726FDF8DA00AE4E2B /* VirtualAssistant.h */,
+				D919FD5E26FDFAF400AE4E2B /* Test.swift */,
 			);
 			path = VirtualAssistant;
 			sourceTree = "<group>";
@@ -93,6 +96,7 @@
 				TargetAttributes = {
 					D919FD5326FDF8DA00AE4E2B = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -129,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D919FD5F26FDFAF400AE4E2B /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		D919FD5C26FDF8DA00AE4E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -279,6 +285,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,6 +294,7 @@
 		D919FD5D26FDF8DA00AE4E2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
