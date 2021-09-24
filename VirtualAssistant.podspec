@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "VirtualAssistant"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "A short description of VirtualAssistant."
 
   # This description is used to generate tags and improve search results.
@@ -92,8 +92,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-    spec.source_files  = "VirtualAssistant/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+    spec.source_files  = "VirtualAssistant/**/*.{h,m,swift}"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
