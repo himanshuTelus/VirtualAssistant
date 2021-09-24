@@ -11,9 +11,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+//        let chatBotController = Chatbot.initWith(botId: "", serverEndPoint: "", port: "")
+//        chatBotController.modalPresentationStyle = .fullScreen
+//        self.present(chatBotController, animated: true, completion: nil)
+    }
 
 }
 

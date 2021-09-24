@@ -46,6 +46,7 @@
 		145F9EAD066F70BEFEBC7C472C8B6AE0 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A6CDAB983F106F835911AF045DEF93 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14651A7B44960231CBA387C28988FC9F /* NSXMLElement+XEP_0352.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4556D89804A44B119FF6DCECD4AE2A /* NSXMLElement+XEP_0352.m */; };
 		150459A10E3E74F597A9E90AAE18041C /* DDContextFilterLogFormatter+Deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E59EDBC461E9F99CB9444F8CB0BF216 /* DDContextFilterLogFormatter+Deprecated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1556657DBE366E84864438ABCF85D8B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E651A55F6A04BBD0BD813F28CED2A1 /* Foundation.framework */; };
 		16134B930D5D800130BCCB454BFC5120 /* XMPPSCRAMSHA1Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8159E24A59DED42CDC01C656CCAA2F9D /* XMPPSCRAMSHA1Authentication.m */; };
 		16C1C23A7A432A3D6FFFC11DDD72AEB4 /* XEP_0223.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F4B2774D667E632EB6426D760C4DB2 /* XEP_0223.m */; };
 		1754431016DCCEE47E3CA5BAFECFBB1D /* XMPPRoomOccupant.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C37F865F70D7D7C96F57979814418F6 /* XMPPRoomOccupant.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,7 +58,7 @@
 		1980C3FC0DD9D050D04FAA003B439356 /* XMPPIncomingFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFFF7C5C5676AD872E48DD15BD581C /* XMPPIncomingFileTransfer.m */; };
 		19A9A5E10AC7B71EBE7E97BB7EDBC4BA /* XMPPMUC.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF5EE46ED8840F2159860186ADD73A6 /* XMPPMUC.m */; };
 		19BB9A389018EB04970AB20FC0CBB725 /* XMPPPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE182F147730A212C8857C6C9C5B588 /* XMPPPrivacy.m */; };
-		19F4A5DF7CF2CBA65B1B7E2D54B4AAE2 /* Pods-VirtualAssistantExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AB9778F8116B04BB1F9BAE91CA7D0D /* Pods-VirtualAssistantExampleTests-dummy.m */; };
+		19F4A5DF7CF2CBA65B1B7E2D54B4AAE2 /* Pods-VirtualAssistantExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3620B66E8358540F425A03237DED0695 /* Pods-VirtualAssistantExampleTests-dummy.m */; };
 		1B6D54A2795B2C126E51C378541473D6 /* XMPPStringPrep.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BA06DA8CF7E09D62555EEEAC4389CC /* XMPPStringPrep.m */; };
 		1B879107498475A1E0DA60B0AE1E7066 /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C476C743E10D3C4F6231569C72C8C8 /* DDOSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BE0ADAE1310B7591F9A1322387EC10C /* XMPPMessageArchiveManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 587D05DFE2DBF7CB8A782B4F7041C727 /* XMPPMessageArchiveManagement.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,7 +75,7 @@
 		21E63F15EFA16AA2572497DA5DD78E44 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB1C8C0C132F9B709D625D5DA63B947 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22FEA998756B8E625714A20F2976D995 /* XMPPIQ+XEP_0060.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A0C76A67622160AA0B789BBF6F01F6 /* XMPPIQ+XEP_0060.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23B85FFADA7A336A50825887370FB30C /* XMPPXOAuth2Google.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB72A71D4D62861541803EBC46A4396 /* XMPPXOAuth2Google.m */; };
-		243A61310D9C5DD3EAA57B27FBB03EDA /* Pods-VirtualAssistant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D43EBB4B176A7CB84B95C1CC975DB5 /* Pods-VirtualAssistant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243A61310D9C5DD3EAA57B27FBB03EDA /* Pods-VirtualAssistant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0A948F2D6284FC2AA8CEC0E9CCA335 /* Pods-VirtualAssistant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24A2B09C42A74075919025A461AC56B8 /* XMPPStreamManagementStanzas.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181C800B37D1B40252EBBAEC1C59248 /* XMPPStreamManagementStanzas.m */; };
 		24BF8EB887238357C10BEA0B1683E73E /* XMPPCoreDataStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A0E6F9723A3744EB1C9BC3C65111A0 /* XMPPCoreDataStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2550F0D474DE846FEC5C76CBE85F927E /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FCB04DA83EF75B1C9C2419DA939BC3 /* OperationQueue+Alamofire.swift */; };
@@ -146,6 +147,7 @@
 		4D7DBAF5D901F1AEB672234D2EB44A6E /* DDList.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE081AA692536A89934C4AAB14C5653 /* DDList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E29DB9DD19D1FA22110E12AA4806087 /* XMPPMessage+XEP_0172.m in Sources */ = {isa = PBXBuildFile; fileRef = B685830618833CD3A7636451A7E738B3 /* XMPPMessage+XEP_0172.m */; };
 		4EAF30551B910C049FBBA3F27D0FE39F /* XMPPMessage+XEP_0280.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EAD57B9D457D66C190A19693E7D9148 /* XMPPMessage+XEP_0280.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EB9CED8350A2F9F406CAECC0B3DEAEB /* Pods-VirtualAssistantExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65826EDD5E5E81D63A284963355774C6 /* Pods-VirtualAssistantExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F3F858C78D329854C61F109405B3B70 /* XMPPPresence+XEP_0172.h in Headers */ = {isa = PBXBuildFile; fileRef = 581AB916F0A30CD3F6DEA840F82A1469 /* XMPPPresence+XEP_0172.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F7BA4CB78B8DB96E2069FA285054718 /* XMPPMessage+XEP0045.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF12D14C9847C21A4077E154FEC6951 /* XMPPMessage+XEP0045.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F8F34DAFE2108E45B90C421A58AFF96 /* XMPPRosterCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF526CC60F0F0A1B1E27472C515C217 /* XMPPRosterCoreDataStorage.m */; };
@@ -166,7 +168,7 @@
 		5707DC08DF71121EF0A75CCEF8773C0E /* XMPPRoomMessageMemoryStorageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 61AF14388B68A12B1614943FACBEA6E8 /* XMPPRoomMessageMemoryStorageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5729CC4977D220C6F29D91FA7220439D /* XMPPSoftwareVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E47B005FAC33EE46D315073D5D4559 /* XMPPSoftwareVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		577061D0F4706FB648891A61B356BFAB /* profiles.c in Sources */ = {isa = PBXBuildFile; fileRef = AE123ED4F79A738535E3D7F0AEA63B40 /* profiles.c */; };
-		57B329612F3E5815ED3C4C5CA2B0F3D5 /* Pods-VirtualAssistant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EED9B83765C367678B52B0FAB115ACD /* Pods-VirtualAssistant-dummy.m */; };
+		57B329612F3E5815ED3C4C5CA2B0F3D5 /* Pods-VirtualAssistant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2FBF8E26FFF69EAC2FF28D805FAB11 /* Pods-VirtualAssistant-dummy.m */; };
 		57DFB3B37E775CC89EA145B13C95B746 /* OMEMOModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2411D4F923EA9DE1C87ACB32D1AC9C54 /* OMEMOModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58BDEBD255FB9AD7EF3362B76BDD0E5A /* XMPPPlainAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = D08F62AB752BDA37C36B615B002525C1 /* XMPPPlainAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ED8EC6E499D5D0380C1AFF7935266C /* MBProgressHUD-dummy.m */; };
@@ -177,13 +179,12 @@
 		5B044E4A02E8D049A956846EFF719452 /* XMPPCapsResourceCoreDataStorageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCC5BAB46B07A4F5D47C62D864E10BF /* XMPPCapsResourceCoreDataStorageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D183C8BACB3EAD73BE26015D4F9BF782 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CAE12D3916A0E76E690E587A7099076 /* XMPPRoomMessageHybridCoreDataStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C65F3CE3445BB84ED9E069FB18ED8191 /* XMPPRoomMessageHybridCoreDataStorageObject.m */; };
-		5D89BBAC76951D0FE848AE49D75B512C /* Pods-VirtualAssistantExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A36111A037D27958FEEFC4BC05B57331 /* Pods-VirtualAssistantExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DB026E384A9A8D30C187C7CC484A64C /* XMPPvCardTempTel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1127ACDA1207A854660AE2628CC8D2C4 /* XMPPvCardTempTel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E594FA3290D3D70F500572D0AC100DB /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D1F90C20512E5EBD2368C2E2DFC2E /* URLConvertible+URLRequestConvertible.swift */; };
 		5EF26073929EA39CB37E1A363E11E841 /* XMPPvCardTempBase.h in Headers */ = {isa = PBXBuildFile; fileRef = CED4753F0C0FA2FB5C118B1D267CB0FC /* XMPPvCardTempBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F9BADA403D8C90ABDFD35F99B189C1D /* NSData+XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = B11A3A1725963542AA6A2F9E248184CB /* NSData+XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61CBC2E3FA3830318EBF559BB910C816 /* NSString+XEP_0106.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F576FAA17845C6AEB69E3EEAB2F8A3 /* NSString+XEP_0106.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61D1860A118A3B23ACE3AC67DBF705F2 /* Pods-VirtualAssistant-VirtualAssistantTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47524D177F616AC7D4197D95CD18F9D3 /* Pods-VirtualAssistant-VirtualAssistantTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D1860A118A3B23ACE3AC67DBF705F2 /* Pods-VirtualAssistant-VirtualAssistantTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BE1A6BF1F3F098C225F3FCC7D2ED64 /* Pods-VirtualAssistant-VirtualAssistantTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62A6DF60342E07B05913048E32D48F04 /* stringprep.h in Headers */ = {isa = PBXBuildFile; fileRef = 9054B1D08FCDFC146AEFA69A1F659693 /* stringprep.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6414A48BD043AE7AEEFC5D2E93E87339 /* RFImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B51903E8D79FC9324D718AC844A745EF /* RFImageToDataTransformer.m */; };
 		64E498A58CDD1BC756904479E6A1BED2 /* XMPPTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 996D895F7CA3F018E72AFD7A2585049B /* XMPPTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -214,7 +215,7 @@
 		6FE56A883363FF7F6CBA8C74C73C3F3B /* NSXMLElement+XEP_0335.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD1DBE038234FCD683D563E3D4CDE8E /* NSXMLElement+XEP_0335.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		700EB42CFBDDA6DF97B4CCF73468179E /* XMPPRosterCoreDataStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6232765E73F8AE17BB2C442C16FF452E /* XMPPRosterCoreDataStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		707A5F056D18174671CD960D229F6668 /* XMPPRoomMessageMemoryStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D64F6CEE3AA8DB7EE054540CD36011 /* XMPPRoomMessageMemoryStorageObject.m */; };
-		71C1DDC55FA825D24AC6B8C6C07E5008 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5505C45A8D039C1B9D4580E8022496E /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-dummy.m */; };
+		71C1DDC55FA825D24AC6B8C6C07E5008 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7E148596987DD28B941086F20AB5C9 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-dummy.m */; };
 		71FC4FF68BF5AF50B8347F0347A47E58 /* XMPPvCardTempEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4140C3B533558337FE4EA5148E32 /* XMPPvCardTempEmail.m */; };
 		72075BB4B21389A4E64E4CEDE1E7C183 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 603405246470859FC6D769ADCD152CA4 /* DDXMLElement.m */; };
 		727B9F374732717E09DDCCB66E1E06FA /* XMPPvCardTempLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = A0ABECA47495D67629C348D601714DBC /* XMPPvCardTempLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -248,7 +249,6 @@
 		83B9165374D495DE3B12802D90A5FC0D /* XMPPBookmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F131FF6AD5D599583036DBD2509F01 /* XMPPBookmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83EEDD15F9FFE0F002D1487AA607FBD8 /* XMPPMessage+XEP_0280.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6A941D011703B247BCAABEDF29FE4 /* XMPPMessage+XEP_0280.m */; };
 		8519FE943A1735C6187AE8DFB79F7750 /* OMEMOKeyData.h in Headers */ = {isa = PBXBuildFile; fileRef = 651C6FFB2A85FC538ED01970ECEB4F9D /* OMEMOKeyData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		860CD59D608A621377B1E9A855823308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E651A55F6A04BBD0BD813F28CED2A1 /* Foundation.framework */; };
 		8617A875A56BCDBAB5DD10C9ED256748 /* OMEMOSignedPreKey.m in Sources */ = {isa = PBXBuildFile; fileRef = AA16CBFE1845F56F72375EDA52D0D475 /* OMEMOSignedPreKey.m */; };
 		863D5DE35DA07D926D57DD5C8F0F8CBF /* CocoaLumberjack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C0A11DA967670415C4A0EDAFE52B16 /* CocoaLumberjack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		868A2C0EFE96589FC5ED19A84DD28C11 /* GCDMulticastDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DC27FCC6206E2DAAD9366F702E3CED /* GCDMulticastDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -261,14 +261,14 @@
 		8AB7A6AEEE70988945C4AA25CD025984 /* XMPPvCardTempAdr.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812DCC9130F40C199F41B014C682D22 /* XMPPvCardTempAdr.m */; };
 		8B856AA51A243438150CE66DEF9A8FA0 /* XMPPBlocking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4184F54FC36ADCC59E39B717693F2B8E /* XMPPBlocking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B9CDBE3FFD712120CD66DD8B06C44E4 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F579E07E57BD764FD6221D705FEEC1 /* ParameterEncoder.swift */; };
-		8C8C8201AB14A68F271A555B1BCD67C8 /* Pods-VirtualAssistantExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5A532E22593303783A9C55C0C88559 /* Pods-VirtualAssistantExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C8C8201AB14A68F271A555B1BCD67C8 /* Pods-VirtualAssistantExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F27327AE56C3328A5AFF73EB4CBC38B2 /* Pods-VirtualAssistantExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CC1E676C2A3B3E421C2D81192923BCF /* XMPPDateTimeProfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E698D4CB072EF620911EC6BF31B4EA /* XMPPDateTimeProfiles.m */; };
 		8CD0BC5387B3A4040ACB6AA4F721E4DF /* XMPPvCardAvatarCoreDataStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8950D2AE76E28F613E65D6317422D84A /* XMPPvCardAvatarCoreDataStorageObject.m */; };
 		8DC1072DF11E38A3359A272B64E773EF /* OMEMOModule.m in Sources */ = {isa = PBXBuildFile; fileRef = BECD1FC6660947C749D9592CC67FEC9F /* OMEMOModule.m */; };
 		8DDEB03BEEA3D8E20BD291D51BF73EBD /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2E8282719C50B49F19E64A9DD0527C /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DE87B62F85D56982ACCFBD3329E0153 /* XMPPvCardTempAdrTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E53B14F83FAAB66DF81C438D13997 /* XMPPvCardTempAdrTypes.m */; };
 		8E044099853D5199AC06C572934B48AB /* XMPPGroupCoreDataStorageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF27DA4FD49696269FFE4FC735F2075 /* XMPPGroupCoreDataStorageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F4DF8FB31A300291EB23276958E6FC5 /* Pods-VirtualAssistant-VirtualAssistantTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDDE7E0C32122EFC6103ABC33A4062 /* Pods-VirtualAssistant-VirtualAssistantTests-dummy.m */; };
+		8F4DF8FB31A300291EB23276958E6FC5 /* Pods-VirtualAssistant-VirtualAssistantTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F8E33EB123E8B638A2B9033D1F64B5 /* Pods-VirtualAssistant-VirtualAssistantTests-dummy.m */; };
 		8F9E1EEF2FE52E3231A769722D5C4148 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CF1E25D6D0C285B439F83B3EB5731 /* ServerTrustEvaluation.swift */; };
 		8FF1F1BD8973CB3333F660AB5AF7D829 /* XMPPvCardTempLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FF0082D6CF170A66BF8726E2D992B6 /* XMPPvCardTempLabel.m */; };
 		90E940342AF20266431F0BCCBD81BB74 /* XMPPReconnect.m in Sources */ = {isa = PBXBuildFile; fileRef = B61140728C3BAC436862010C3E3431B8 /* XMPPReconnect.m */; };
@@ -390,7 +390,7 @@
 		D1B43BA9BB22ECAEE16E7385D6A65EB4 /* XMPPMessageArchiving_Contact_CoreDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D416598905878DDF4F73B40D6DDF11 /* XMPPMessageArchiving_Contact_CoreDataObject.m */; };
 		D1BB6FDC0A8758F7F501B8DEDEAD93C1 /* XMPPSlot.h in Headers */ = {isa = PBXBuildFile; fileRef = 685A84F874D33BC3AE29C5A79C6E910F /* XMPPSlot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D20C45EB5F9CFC8EED6B15AA26FEC389 /* NSXMLElement+XEP_0203.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDAD0B4F5617951A32FEAFCA560D6E5 /* NSXMLElement+XEP_0203.m */; };
-		D2779056178EED4ED463364332A843C4 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D895D6E3559E2E0233B85D3973B6D7D /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2779056178EED4ED463364332A843C4 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98530F57507F1FB105E2C048A9D80C20 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3539A4D134C947215949AA3E15129E9 /* XMPPPlainAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6484A950BCAF29A99D02B0826A736528 /* XMPPPlainAuthentication.m */; };
 		D35AFCF5907B8884C0DD61570E3F414D /* XMPPRoomPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7882E43BFFC88784A9C8CE1FEA0D9B36 /* XMPPRoomPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D391BD517219423EC666A9FDCE96B377 /* DDFileLogger+Buffering.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C578E79550BC62FCE79F89E5C445687 /* DDFileLogger+Buffering.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -423,6 +423,7 @@
 		DD2CFB9FC3B1D9C441351E4BE2A68ECC /* XMPPDelayedDelivery.m in Sources */ = {isa = PBXBuildFile; fileRef = 703DE040E7623D31D1A5F289111F2746 /* XMPPDelayedDelivery.m */; };
 		DD58A00EACBEE274C381B491519C6B8C /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE756016AF26F8184CFA33ECF45E97 /* RedirectHandler.swift */; };
 		DE6E359F0D83848C5ED055E214D8B997 /* XMPPIQ+XEP_0066.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B503944145F89773B6C934CF9277D3 /* XMPPIQ+XEP_0066.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEB9F81FF8FBD2E3F76F864203757FE1 /* Pods-VirtualAssistantExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 660C6DA8005D69F5162B1A6D6BBB00D2 /* Pods-VirtualAssistantExample-dummy.m */; };
 		DECD64785E05364AFAD5541D20F6B026 /* XMPPPresence.h in Headers */ = {isa = PBXBuildFile; fileRef = D93C5368BFBBF8C99F7551C33DBF9C89 /* XMPPPresence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF0C0A6EC4E225CC7BA931082561BECD /* XMPPIQ+XEP_0066.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B99E190FA5AF3A9DE3CA3A56422091 /* XMPPIQ+XEP_0066.m */; };
 		DF565A7B06605C164EC1C2CC7DA42FC3 /* XMPPXOAuth2Google.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D73693056467793CE73D1A1B93B654 /* XMPPXOAuth2Google.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -455,7 +456,6 @@
 		EC319522B5CB11545EF79FCF4313B94A /* XMPPRoster.xcdatamodel in Resources */ = {isa = PBXBuildFile; fileRef = BFF59904E3D837514B12974ACEB385CA /* XMPPRoster.xcdatamodel */; };
 		EC7F1DD3F7BDC34364E1F28E07A7B97A /* XMPPRoomHybridStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0790766B1A2612FFE984C6B0FDBC2865 /* XMPPRoomHybridStorage.m */; };
 		ED87F46317900C782894E5FAE9AF5B4C /* XMPPMessage+XEP_0308.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C030F5F90187B0A021448DC71279CD9 /* XMPPMessage+XEP_0308.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE264ACF0A806A6D3268788C5E433D53 /* Pods-VirtualAssistantExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0983CD6FAFF6211AD326CEFBFD4B1A /* Pods-VirtualAssistantExample-dummy.m */; };
 		EE6E7283B3D1ED5C839BC6E8623A2756 /* NSXMLElement+XEP_0203.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F1FA539EA2616EB0C7DBF08207FA99 /* NSXMLElement+XEP_0203.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF7065D428963D2A5A1755838EE606FC /* XMPPDigestMD5Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF9A133D39EE74522A1A960E2EA1D65 /* XMPPDigestMD5Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFD20F1686F476C5C2F88BC75A459D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E651A55F6A04BBD0BD813F28CED2A1 /* Foundation.framework */; };
@@ -496,6 +496,13 @@
 			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
 			remoteInfo = CocoaAsyncSocket;
 		};
+		0CF5394F17415DFE960876C929D7D003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E29B9B6C65A7F7B0A531D16330B38F1;
+			remoteInfo = KissXML;
+		};
 		15ACCD05EA6C3A3084A32F3B50EA0949 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -503,12 +510,26 @@
 			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
 			remoteInfo = AlamofireImage;
 		};
+		176BDA3064A04F8E4585B23F39377629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
 		20475C8B91F2153F0820460841DCB102 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 77A3D42C87C7E2E6588C87CF453322DE;
 			remoteInfo = XMPPFramework;
+		};
+		2436C4DE4F12C6339FEA3E31F305C6C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
+			remoteInfo = AlamofireImage;
 		};
 		246B6699FC0D35CF0216B8B4030645E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -601,6 +622,13 @@
 			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
 			remoteInfo = AlamofireImage;
 		};
+		A4770BC8EE3A517A20DA74B2627FB5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
+			remoteInfo = CocoaLumberjack;
+		};
 		A75C9B532F9A974DC4ED0F2009C4D4F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -615,12 +643,33 @@
 			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
 			remoteInfo = CocoaAsyncSocket;
 		};
+		DDCA5CFF43116B4D6847F070A7FDFEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0FF6D82399DADCB1B9E53ACCAB13A50;
+			remoteInfo = libidn;
+		};
 		E11E93F1E740588C1B52C69A3DD853EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A0FF6D82399DADCB1B9E53ACCAB13A50;
 			remoteInfo = libidn;
+		};
+		E498EBB0D8A6239DD8BE2A5BC108693F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A3D42C87C7E2E6588C87CF453322DE;
+			remoteInfo = XMPPFramework;
+		};
+		E8C6310E561F19DE01FC07D6B4E49792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
 		};
 		EBAEC14F1E1F3961112A28F96F0589A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -643,6 +692,13 @@
 			remoteGlobalIDString = 5E29B9B6C65A7F7B0A531D16330B38F1;
 			remoteInfo = KissXML;
 		};
+		F86A74C8D6E395C783CF52767E52B195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -658,13 +714,13 @@
 		04C37893EA8EC6B1C40D4BE11376A6AA /* XMPPResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPResultSet.h; path = "Extensions/XEP-0059/XMPPResultSet.h"; sourceTree = "<group>"; };
 		04D741C3AA271B97957404DC4A0A86CB /* XMPPOutOfBandResourceMessaging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPOutOfBandResourceMessaging.m; path = "Extensions/XEP-0066/XMPPOutOfBandResourceMessaging.m"; sourceTree = "<group>"; };
 		04FCBBEBBEDE41D12491E2EA8A1EE033 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		053105E480DB00252609B9E9FCDC8667 /* Pods-VirtualAssistant-VirtualAssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistant-VirtualAssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
 		054C4B7EC73D74AABF405A2B46623B06 /* XMPPMessageArchivingCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessageArchivingCoreDataStorage.h; path = "Extensions/XEP-0136/CoreDataStorage/XMPPMessageArchivingCoreDataStorage.h"; sourceTree = "<group>"; };
 		055F1D5D096E491F50B3D1DE8EDE7517 /* NSXMLElement+XEP_0297.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+XEP_0297.h"; path = "Extensions/XEP-0297/NSXMLElement+XEP_0297.h"; sourceTree = "<group>"; };
 		06341170168E98F0E3D8D7573DBE8777 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogger.h; sourceTree = "<group>"; };
 		06F131FF6AD5D599583036DBD2509F01 /* XMPPBookmark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPBookmark.h; path = "Extensions/XEP-0048/XMPPBookmark.h"; sourceTree = "<group>"; };
 		071F6B32DA0896EED8889462BC104ECD /* XMPPCapsResourceCoreDataStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPCapsResourceCoreDataStorageObject.m; path = "Extensions/XEP-0115/CoreDataStorage/XMPPCapsResourceCoreDataStorageObject.m"; sourceTree = "<group>"; };
 		0790766B1A2612FFE984C6B0FDBC2865 /* XMPPRoomHybridStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRoomHybridStorage.m; path = "Extensions/XEP-0045/HybridStorage/XMPPRoomHybridStorage.m"; sourceTree = "<group>"; };
-		07B8FF8C722672819EA298114F8B9367 /* Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		08082AB1BCE9D08A2BE363F87BE8EE8D /* XMPPResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPResultSet.m; path = "Extensions/XEP-0059/XMPPResultSet.m"; sourceTree = "<group>"; };
 		083E61C10FE172E185BD20BE6715775B /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		08E8603D9EDE87BFE14801507DA82A63 /* XMPPGoogleSharedStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPGoogleSharedStatus.m; path = Extensions/GoogleSharedStatus/XMPPGoogleSharedStatus.m; sourceTree = "<group>"; };
@@ -678,9 +734,9 @@
 		0C829A5569330451D270BD6F1736838B /* Pods-VirtualAssistant-VirtualAssistantTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VirtualAssistant-VirtualAssistantTests"; path = Pods_VirtualAssistant_VirtualAssistantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB2EB757F773FCB3F764F489C443CB0 /* CocoaLumberjack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.debug.xcconfig; sourceTree = "<group>"; };
 		0D574B0FF129C271A2A7CDD1D32A32B6 /* XMPPIDTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPIDTracker.m; path = Utilities/XMPPIDTracker.m; sourceTree = "<group>"; };
+		0D6CF52CD7C666D2EEE1A92E3512F6B8 /* Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E040994A8A5A940049C2EC9F1B0A6C8 /* KissXML-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KissXML-Info.plist"; sourceTree = "<group>"; };
 		0E30269D36B9AC8C9D505ABD396A4F0D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		0E3B4D5D56CA84B77EF56EB1CEBA1B60 /* Pods-VirtualAssistant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistant-Info.plist"; sourceTree = "<group>"; };
 		0E7CF85A1F261F387D4F6864F517A135 /* XMPPRoomLight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRoomLight.m; path = Extensions/XMPPMUCLight/XMPPRoomLight.m; sourceTree = "<group>"; };
 		0EBC040E356DACF6B5A2C27C967CFE50 /* XMPPPresence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPPresence.m; path = Core/XMPPPresence.m; sourceTree = "<group>"; };
 		0F0F43D8D5121D3992605AD14043518A /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -691,6 +747,7 @@
 		11F817CE6FFE56601CB8CAAA865220AC /* XMPPProcessOne.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPProcessOne.m; path = Extensions/ProcessOne/XMPPProcessOne.m; sourceTree = "<group>"; };
 		12DEFE74A6FBF2679F8155D7662B92B3 /* XMPPRoomLight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomLight.h; path = Extensions/XMPPMUCLight/XMPPRoomLight.h; sourceTree = "<group>"; };
 		13284DC556160F7453FD7CC6F2FAAD68 /* XMPPUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPUser.h; path = Extensions/Roster/XMPPUser.h; sourceTree = "<group>"; };
+		1470888078568A0974706E88E741D334 /* Pods-VirtualAssistantExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExample.debug.xcconfig"; sourceTree = "<group>"; };
 		14A34E1F97F9722E7CF46C70965F662E /* XMPPMUC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMUC.h; path = "Extensions/XEP-0045/XMPPMUC.h"; sourceTree = "<group>"; };
 		16433155050B465E6008A9F2B5D99773 /* XMPPJabberRPCModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPJabberRPCModule.h; path = "Extensions/XEP-0009/XMPPJabberRPCModule.h"; sourceTree = "<group>"; };
 		16B94003CE87CDC2F692C7FF127B1779 /* XMPPBandwidthMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPBandwidthMonitor.h; path = Extensions/BandwidthMonitor/XMPPBandwidthMonitor.h; sourceTree = "<group>"; };
@@ -702,6 +759,7 @@
 		19CF178FCC42A7C55D73E0712B7937EC /* XMPPMessage+XEP_0172.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0172.h"; path = "Extensions/XEP-0172/XMPPMessage+XEP_0172.h"; sourceTree = "<group>"; };
 		1AD81C554BDFB5321D3FFF265804054B /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		1B2E8282719C50B49F19E64A9DD0527C /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLogMacros.h; sourceTree = "<group>"; };
+		1B4DA348AD4D939D6A702ADEB3EA1B01 /* Pods-VirtualAssistantExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExample-Info.plist"; sourceTree = "<group>"; };
 		1C0ABE0E1EFC444756C450280497A642 /* XMPPvCardTempModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempModule.h; path = "Extensions/XEP-0054/XMPPvCardTempModule.h"; sourceTree = "<group>"; };
 		1C186AACEE6AB065028F2DD87AFEA1E9 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		1CDAD0B4F5617951A32FEAFCA560D6E5 /* NSXMLElement+XEP_0203.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSXMLElement+XEP_0203.m"; path = "Extensions/XEP-0203/NSXMLElement+XEP_0203.m"; sourceTree = "<group>"; };
@@ -718,6 +776,7 @@
 		23DED4DF6EF550D96721E6A5AAB0CF8F /* XMPPPubSub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPPubSub.h; path = "Extensions/XEP-0060/XMPPPubSub.h"; sourceTree = "<group>"; };
 		2411D4F923EA9DE1C87ACB32D1AC9C54 /* OMEMOModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMEMOModule.h; path = Extensions/OMEMO/OMEMOModule.h; sourceTree = "<group>"; };
 		258F7148F2DBA032AC1AB822DB34CEA7 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		26742FA36703ADFA899EF0F1F73A680B /* Pods-VirtualAssistantExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2690CFF3D8E71817CE7E433EA85614D9 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		272222BCD477D591845E03597055034A /* KissXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KissXML-prefix.pch"; sourceTree = "<group>"; };
 		276B25E0B2BE141EDA448D8373341656 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
@@ -727,17 +786,14 @@
 		2871E9CBE35A52C72D95D0106824106B /* XMPPBlocking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPBlocking.m; path = "Extensions/XEP-0191/XMPPBlocking.m"; sourceTree = "<group>"; };
 		29402FE2986BFCEADDEA52683E6659FD /* XMPPMessage+XEP_0333.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0333.h"; path = "Extensions/XEP-0333/XMPPMessage+XEP_0333.h"; sourceTree = "<group>"; };
 		299CBE5FA9D5375E52B0B42BFA7064BB /* XMPPMessageArchivingCoreDataStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPMessageArchivingCoreDataStorage.m; path = "Extensions/XEP-0136/CoreDataStorage/XMPPMessageArchivingCoreDataStorage.m"; sourceTree = "<group>"; };
-		2AB43F790D9C4F6E61B79A04031D360A /* Pods-VirtualAssistantExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VirtualAssistantExampleTests.modulemap"; sourceTree = "<group>"; };
 		2ABE7EF7E34F1ECC9502C3733DA3E560 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
 		2AFB46C2CDD94FD8002245DDCDD68442 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		2BA030293331CD14981141E0F0FB6003 /* XMPPLastActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPLastActivity.h; path = "Extensions/XEP-0012/XMPPLastActivity.h"; sourceTree = "<group>"; };
 		2BBCC88B29083F4EB41DA3DB2098CB7E /* XMPPDeprecatedDigestAuthentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPDeprecatedDigestAuthentication.m; path = "Authentication/Deprecated-Digest/XMPPDeprecatedDigestAuthentication.m"; sourceTree = "<group>"; };
-		2D50E2D903AF8BB0AC270CB1E4F111B1 /* Pods-VirtualAssistantExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExampleTests-Info.plist"; sourceTree = "<group>"; };
 		2E44E1B13488F7F74D0C1AA5DA4FF5F6 /* XMPPParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPParser.h; path = Core/XMPPParser.h; sourceTree = "<group>"; };
 		2E6FF63B773D5C1612BAA7DF653D94F0 /* XMPPRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRegistration.m; path = "Extensions/XEP-0077/XMPPRegistration.m"; sourceTree = "<group>"; };
 		2EDEF142B01DE6E5D2E1BBA1BE951018 /* XMPPPing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPPing.m; path = "Extensions/XEP-0199/XMPPPing.m"; sourceTree = "<group>"; };
 		2EFFFF7C5C5676AD872E48DD15BD581C /* XMPPIncomingFileTransfer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPIncomingFileTransfer.m; path = Extensions/FileTransfer/XMPPIncomingFileTransfer.m; sourceTree = "<group>"; };
-		2F0983CD6FAFF6211AD326CEFBFD4B1A /* Pods-VirtualAssistantExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VirtualAssistantExample-dummy.m"; sourceTree = "<group>"; };
 		304CF1E25D6D0C285B439F83B3EB5731 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		3077BD1F602B3E16A5F221D2F8AC4E89 /* NSXMLElement+XEP_0297.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSXMLElement+XEP_0297.m"; path = "Extensions/XEP-0297/NSXMLElement+XEP_0297.m"; sourceTree = "<group>"; };
 		31153A69797637B18ABC742B3EEC119F /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
@@ -751,6 +807,7 @@
 		3496199FFC55D6BDF704B9893BB74CFF /* XMPPRoomLight.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; name = XMPPRoomLight.xcdatamodel; path = Extensions/XMPPMUCLight/CoreDataStorage/XMPPRoomLight.xcdatamodel; sourceTree = "<group>"; };
 		34F2789485CE642CEDAB965996660A07 /* XMPPRoomHybridStorageProtected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomHybridStorageProtected.h; path = "Extensions/XEP-0045/HybridStorage/XMPPRoomHybridStorageProtected.h"; sourceTree = "<group>"; };
 		35469E7813BDEA382BA80AC303C4D5A8 /* XMPPPushModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPPushModule.m; path = "Extensions/XEP-0357/XMPPPushModule.m"; sourceTree = "<group>"; };
+		3620B66E8358540F425A03237DED0695 /* Pods-VirtualAssistantExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VirtualAssistantExampleTests-dummy.m"; sourceTree = "<group>"; };
 		363BFCDD11B9EED2A86E493885E34B5E /* XMPPMessage+XEP_0308.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPMessage+XEP_0308.m"; path = "Extensions/XEP-0308/XMPPMessage+XEP_0308.m"; sourceTree = "<group>"; };
 		3686C319337CE224F9A1EE6A74BD464B /* XMPPRoomMemoryStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomMemoryStorage.h; path = "Extensions/XEP-0045/MemoryStorage/XMPPRoomMemoryStorage.h"; sourceTree = "<group>"; };
 		36B45C53599488FFF9EE15D614413A06 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
@@ -762,9 +819,9 @@
 		38EF93AAE207BD939A711CDD898250BE /* NSXMLElement+XMPP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSXMLElement+XMPP.m"; path = "Categories/NSXMLElement+XMPP.m"; sourceTree = "<group>"; };
 		39E07F431CA70C7D9FCB5964D694B1D1 /* gunicomp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gunicomp.h; path = lib/gunicomp.h; sourceTree = "<group>"; };
 		3A3109DFC2540E5CD0EFF82F3ACEF5F5 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		3ABDDE7E0C32122EFC6103ABC33A4062 /* Pods-VirtualAssistant-VirtualAssistantTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VirtualAssistant-VirtualAssistantTests-dummy.m"; sourceTree = "<group>"; };
 		3ACB8A52BACE8E3A7298581990C2B1D2 /* XMPPRoomLightCoreDataStorage+XEP_0313.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPRoomLightCoreDataStorage+XEP_0313.h"; path = "Extensions/XEP-0313/XMPPRoomLightCoreDataStorage+XEP_0313.h"; sourceTree = "<group>"; };
 		3C91B384C3296088FABFE63F952E9A66 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
+		3CC096D045BC42901BC3FDA8C412EA57 /* Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3D7DAF38E55B054E2CDFE6F8A36A48E8 /* XMPPRoom.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = XMPPRoom.xcdatamodel; sourceTree = "<group>"; };
 		3DDCBA7060FE7F7430BDAC984A65FFCA /* DDXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLDocument.m; path = KissXML/DDXMLDocument.m; sourceTree = "<group>"; };
 		3DF044B12F4761345C8EDDBD7D4D446F /* XMPPFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMPPFramework.modulemap; sourceTree = "<group>"; };
@@ -782,13 +839,12 @@
 		420D06270B7B3A81A0FEA2785AB1E041 /* AlamofireImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireImage.debug.xcconfig; sourceTree = "<group>"; };
 		4212ED99A13F2B343AE88FF9EBBF0CDF /* XMPPvCardCoreDataStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPvCardCoreDataStorageObject.m; path = "Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorageObject.m"; sourceTree = "<group>"; };
 		42A54F9209B4D7288AB4FC9BE7297E85 /* NSData+XMPP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+XMPP.m"; path = "Categories/NSData+XMPP.m"; sourceTree = "<group>"; };
+		42E20ED7FA30D9E2D98305A36225A57B /* Pods-VirtualAssistantExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VirtualAssistantExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		439CFDB544DB09033836B7D3B6E6BEE7 /* XMPPSoftwareVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPSoftwareVersion.m; path = "Extensions/XEP-0092/XMPPSoftwareVersion.m"; sourceTree = "<group>"; };
 		44376842F238C2EE883E8DA330F0DE46 /* XMPPRoomLightCoreDataStorage+XEP_0313.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPRoomLightCoreDataStorage+XEP_0313.m"; path = "Extensions/XEP-0313/XMPPRoomLightCoreDataStorage+XEP_0313.m"; sourceTree = "<group>"; };
 		44A27AFB8553CE29AA96DC42955E269A /* CocoaLumberjack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.release.xcconfig; sourceTree = "<group>"; };
 		45AC73AB581DCC9D0CDEF11222A445CD /* XMPPPubSub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPPubSub.m; path = "Extensions/XEP-0060/XMPPPubSub.m"; sourceTree = "<group>"; };
 		461A3D7FF2BD79C780963FA80F74C5CA /* XMPPStreamManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPStreamManagement.m; path = "Extensions/XEP-0198/XMPPStreamManagement.m"; sourceTree = "<group>"; };
-		4726919C1825D6C1FA6169CF961F507A /* Pods-VirtualAssistantExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		47524D177F616AC7D4197D95CD18F9D3 /* Pods-VirtualAssistant-VirtualAssistantTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VirtualAssistant-VirtualAssistantTests-umbrella.h"; sourceTree = "<group>"; };
 		478BADAEB9C69071FAC4160346490842 /* XMPPAnonymousAuthentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPAnonymousAuthentication.m; path = Authentication/Anonymous/XMPPAnonymousAuthentication.m; sourceTree = "<group>"; };
 		47E145BA702861D67F7EF7BD2F67FC6C /* KissXML */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KissXML; path = KissXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B17405096F168BB780495B851EEF8CA /* XMPPFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMPPFramework-dummy.m"; sourceTree = "<group>"; };
@@ -802,24 +858,25 @@
 		4DA2E87DF936A0FA9E3F7F077025F64A /* XMPPIQ+XEP_0357.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPIQ+XEP_0357.m"; path = "Extensions/XEP-0357/XMPPIQ+XEP_0357.m"; sourceTree = "<group>"; };
 		4E917B737D7A1ACA5E389D35B0737F92 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
 		4F2C881D90CF1B8D5E0B4EF129C09501 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog.h; sourceTree = "<group>"; };
+		4F990CAFF1747AA2B4C2AF73A4F06B36 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4FB1C8C0C132F9B709D625D5DA63B947 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog+LOGV.h"; sourceTree = "<group>"; };
 		50C649A9BD9ACA75D0EA4B0AB398A65A /* XMPPDeprecatedPlainAuthentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPDeprecatedPlainAuthentication.m; path = "Authentication/Deprecated-Plain/XMPPDeprecatedPlainAuthentication.m"; sourceTree = "<group>"; };
 		50EC5AB1E1BFCAF2765659D80AB4F733 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Sources/CocoaLumberjack/DDOSLogger.m; sourceTree = "<group>"; };
 		5104A8FB65515DAF5F01CB79E7D8FC82 /* XMPPIQ+JabberRPCResonse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPIQ+JabberRPCResonse.h"; path = "Extensions/XEP-0009/XMPPIQ+JabberRPCResonse.h"; sourceTree = "<group>"; };
 		518687E5CF1F20B3BA513F3D7A9B776C /* XMPPJID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPJID.h; path = Core/XMPPJID.h; sourceTree = "<group>"; };
+		51B41AAC3E46688034FF32656DAD24C2 /* Pods-VirtualAssistantExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		524187564351D5A9A7119B6218AB31D5 /* XMPPFileTransfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPFileTransfer.h; path = Extensions/FileTransfer/XMPPFileTransfer.h; sourceTree = "<group>"; };
 		52B5D369B91065706F8BF6CB78AE40AA /* XMPPRoomLightMessageCoreDataStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRoomLightMessageCoreDataStorageObject.m; path = Extensions/XMPPMUCLight/CoreDataStorage/XMPPRoomLightMessageCoreDataStorageObject.m; sourceTree = "<group>"; };
 		52DAE49854CA02B0A16A40FDA4D3F584 /* DDXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLDocument.h; path = KissXML/DDXMLDocument.h; sourceTree = "<group>"; };
-		52E9D7C6639DCA4763539F4EBB5070AF /* Pods-VirtualAssistantExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VirtualAssistantExample.modulemap"; sourceTree = "<group>"; };
 		5419CA42AA73F616585BB09212506205 /* XMPPRosterMemoryStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRosterMemoryStorage.m; path = Extensions/Roster/MemoryStorage/XMPPRosterMemoryStorage.m; sourceTree = "<group>"; };
 		54916E0144B65142FA61154E1CD54E3A /* XMPPSASLAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPSASLAuthentication.h; path = Authentication/XMPPSASLAuthentication.h; sourceTree = "<group>"; };
+		54B16A86AD98EE275D05D26AB61EBB20 /* Pods-VirtualAssistant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistant-Info.plist"; sourceTree = "<group>"; };
 		54FCB04DA83EF75B1C9C2419DA939BC3 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		5505CCB03C47AB84D2E6DB68B2AC0E24 /* XMPPCapabilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPCapabilities.h; path = "Extensions/XEP-0115/XMPPCapabilities.h"; sourceTree = "<group>"; };
 		5529497B940FC209646D5F1781A8230B /* XMPPIQ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPIQ.h; path = Core/XMPPIQ.h; sourceTree = "<group>"; };
 		5533ACC910F1962CC79C1A7CC41BBB5D /* XMPPMessage+XEP_0085.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0085.h"; path = "Extensions/XEP-0085/XMPPMessage+XEP_0085.h"; sourceTree = "<group>"; };
 		557FCA5D1DA79BA2D4D8313AC5F290AE /* XMPPMessageArchiving_Contact_CoreDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessageArchiving_Contact_CoreDataObject.h; path = "Extensions/XEP-0136/CoreDataStorage/XMPPMessageArchiving_Contact_CoreDataObject.h"; sourceTree = "<group>"; };
 		55C5A0BEE8F77E2A4A1ACA3B8E73C9AD /* XMPPvCardCoreDataStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPvCardCoreDataStorage.m; path = "Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorage.m"; sourceTree = "<group>"; };
-		56AB9778F8116B04BB1F9BAE91CA7D0D /* Pods-VirtualAssistantExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VirtualAssistantExampleTests-dummy.m"; sourceTree = "<group>"; };
 		57E2837CC5F072DF14EFC608C2FA1B2A /* CLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLIColor.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/CLIColor.h; sourceTree = "<group>"; };
 		581AB916F0A30CD3F6DEA840F82A1469 /* XMPPPresence+XEP_0172.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPPresence+XEP_0172.h"; path = "Extensions/XEP-0172/XMPPPresence+XEP_0172.h"; sourceTree = "<group>"; };
 		583F663F0C563BCB0E581F1C7ADE4A29 /* XMPPURI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPURI.m; path = "Extensions/XEP-0147/XMPPURI.m"; sourceTree = "<group>"; };
@@ -828,19 +885,19 @@
 		58C0A11DA967670415C4A0EDAFE52B16 /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
 		59A6CDAB983F106F835911AF045DEF93 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		5A23D92B5B46036C17B25D68CB9170F4 /* XMPPHTTPFileUpload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPHTTPFileUpload.h; path = "Extensions/XEP-0363/XMPPHTTPFileUpload.h"; sourceTree = "<group>"; };
-		5A367151B069D3E882D2D0B42F0C8156 /* Pods-VirtualAssistant-VirtualAssistantTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistant-VirtualAssistantTests-Info.plist"; sourceTree = "<group>"; };
 		5AAD25292A78A08CD0A7F31119B1FC5E /* XMPPStanzaIdModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPStanzaIdModule.m; path = "Extensions/XEP-0359/XMPPStanzaIdModule.m"; sourceTree = "<group>"; };
 		5AC23BC0E3351FCD8D815B372CC25828 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		5AC2E5C4BBC70327DB7D9285ECF8B003 /* NSXMLElement+XEP_0335.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSXMLElement+XEP_0335.m"; path = "Extensions/XEP-0335/NSXMLElement+XEP_0335.m"; sourceTree = "<group>"; };
-		5ADDFC7C96D5F867FD555C42E71299C7 /* Pods-VirtualAssistantExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B48C8623A4D63114A022F3742761361 /* GCDMulticastDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDMulticastDelegate.m; path = Utilities/GCDMulticastDelegate.m; sourceTree = "<group>"; };
 		5BA8DD496D4457C08C56FCD42D035ABA /* XMPPCapsCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPCapsCoreDataStorageObject.h; path = "Extensions/XEP-0115/CoreDataStorage/XMPPCapsCoreDataStorageObject.h"; sourceTree = "<group>"; };
+		5C02F8B5570C7F3628A464F1767D62C0 /* Pods-VirtualAssistantExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		5C030F5F90187B0A021448DC71279CD9 /* XMPPMessage+XEP_0308.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0308.h"; path = "Extensions/XEP-0308/XMPPMessage+XEP_0308.h"; sourceTree = "<group>"; };
 		5C1BE1FD229F44B3A6A8E7810CB53868 /* NSXMLElement+XEP_0059.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+XEP_0059.h"; path = "Extensions/XEP-0059/NSXMLElement+XEP_0059.h"; sourceTree = "<group>"; };
 		5D0C4140C3B533558337FE4EA5148E32 /* XMPPvCardTempEmail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPvCardTempEmail.m; path = "Extensions/XEP-0054/XMPPvCardTempEmail.m"; sourceTree = "<group>"; };
 		5D0CDE2BEA5E23969CA19E17190967A9 /* XMPPStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPStream.m; path = Core/XMPPStream.m; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7C027A637D5CEC26E36740B2B19773 /* XMPPBookmark.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPBookmark.m; path = "Extensions/XEP-0048/XMPPBookmark.m"; sourceTree = "<group>"; };
+		5D9DC09B3B6077182051E3B81C7C0D10 /* Pods-VirtualAssistantExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExampleTests-Info.plist"; sourceTree = "<group>"; };
 		5DD41807E07F9D99F4C2246CD7DCF78A /* XMPPMUCLight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMUCLight.h; path = Extensions/XMPPMUCLight/XMPPMUCLight.h; sourceTree = "<group>"; };
 		5DEE1986F1B6B7EFF331CF22D7C16582 /* XMPPFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMPPFramework-prefix.pch"; sourceTree = "<group>"; };
 		5E42500928299D1CDE9BC352F04FA795 /* XMPPRoomMessageHybridCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomMessageHybridCoreDataStorageObject.h; path = "Extensions/XEP-0045/HybridStorage/XMPPRoomMessageHybridCoreDataStorageObject.h"; sourceTree = "<group>"; };
@@ -848,7 +905,6 @@
 		5E97914B97936ADC053E195698C81EED /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
 		5EAD57B9D457D66C190A19693E7D9148 /* XMPPMessage+XEP_0280.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0280.h"; path = "Extensions/XEP-0280/XMPPMessage+XEP_0280.h"; sourceTree = "<group>"; };
 		5EC9B9B056EE0879D2257516ED9A748C /* XMPPTransports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPTransports.h; path = "Extensions/XEP-0100/XMPPTransports.h"; sourceTree = "<group>"; };
-		5F69CB781AC6BDC12BEB6B1C59C88E0E /* Pods-VirtualAssistant-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VirtualAssistant-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5F88B8E3AF731F5048126F307FB6476C /* XMPPRoomHybridStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomHybridStorage.h; path = "Extensions/XEP-0045/HybridStorage/XMPPRoomHybridStorage.h"; sourceTree = "<group>"; };
 		5F93A437DBECBF2B228154FA018E952E /* TURNSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TURNSocket.m; path = "Extensions/XEP-0065/TURNSocket.m"; sourceTree = "<group>"; };
 		603405246470859FC6D769ADCD152CA4 /* DDXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElement.m; path = KissXML/DDXMLElement.m; sourceTree = "<group>"; };
@@ -869,8 +925,11 @@
 		64104233A68AB23F805DADE47AE406D0 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		6484A950BCAF29A99D02B0826A736528 /* XMPPPlainAuthentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPPlainAuthentication.m; path = Authentication/Plain/XMPPPlainAuthentication.m; sourceTree = "<group>"; };
 		651C6FFB2A85FC538ED01970ECEB4F9D /* OMEMOKeyData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMEMOKeyData.h; path = Extensions/OMEMO/OMEMOKeyData.h; sourceTree = "<group>"; };
+		65826EDD5E5E81D63A284963355774C6 /* Pods-VirtualAssistantExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VirtualAssistantExample-umbrella.h"; sourceTree = "<group>"; };
+		65AF54C78DA0EE78A66FD3B1A9C5EDBE /* Pods-VirtualAssistantExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VirtualAssistantExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		65E18994EB8DF814F72AF1DC37944717 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDTTYLogger.h; sourceTree = "<group>"; };
 		66010CA7F7630348347F18BEEA968465 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		660C6DA8005D69F5162B1A6D6BBB00D2 /* Pods-VirtualAssistantExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VirtualAssistantExample-dummy.m"; sourceTree = "<group>"; };
 		66737E97E24EFD46F687AD6153A307C6 /* NSXMLElement+XMPP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+XMPP.h"; path = "Categories/NSXMLElement+XMPP.h"; sourceTree = "<group>"; };
 		6779EABF40B9CF931E98EB63029AA959 /* XMPPOneToOneChat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPOneToOneChat.m; path = Extensions/OneToOneChat/XMPPOneToOneChat.m; sourceTree = "<group>"; };
 		685A84F874D33BC3AE29C5A79C6E910F /* XMPPSlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPSlot.h; path = "Extensions/XEP-0363/XMPPSlot.h"; sourceTree = "<group>"; };
@@ -879,7 +938,6 @@
 		68E76DA0AC06D7A2DC4B6EB590F6088E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		69D55C497EC68B37FFA5274C5A1692B5 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		6A4246902FDD3667CCB64C38C7BD7946 /* XMPPRoomLightCoreDataStorageProtected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomLightCoreDataStorageProtected.h; path = Extensions/XMPPMUCLight/CoreDataStorage/XMPPRoomLightCoreDataStorageProtected.h; sourceTree = "<group>"; };
-		6A74E3C2540220798526AEA8DC6A10CE /* Pods-VirtualAssistant-VirtualAssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistant-VirtualAssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A7D6835D73ED5C5DB67029A7A0FBC64 /* stringprep.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stringprep.c; path = lib/stringprep.c; sourceTree = "<group>"; };
 		6B6225B56C034BFE05F4F66B0AB8FC22 /* XMPPResourceCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPResourceCoreDataStorageObject.h; path = Extensions/Roster/CoreDataStorage/XMPPResourceCoreDataStorageObject.h; sourceTree = "<group>"; };
 		6BF685C4A609BDADBE82059BEE255B32 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
@@ -888,17 +946,17 @@
 		6D572412D7BDE8596439EA42DD7F5047 /* XMPPFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMPPFramework-Info.plist"; sourceTree = "<group>"; };
 		6E0FE403C6F31CCDAE6AFF0289E02862 /* XMPPAttentionModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPAttentionModule.h; path = "Extensions/XEP-0224/XMPPAttentionModule.h"; sourceTree = "<group>"; };
 		6E59EDBC461E9F99CB9444F8CB0BF216 /* DDContextFilterLogFormatter+Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDContextFilterLogFormatter+Deprecated.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter+Deprecated.h"; sourceTree = "<group>"; };
-		6E5A532E22593303783A9C55C0C88559 /* Pods-VirtualAssistantExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VirtualAssistantExampleTests-umbrella.h"; sourceTree = "<group>"; };
-		6E6C7585795955B6089E53DDC2DBFDBA /* Pods-VirtualAssistantExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExample.release.xcconfig"; sourceTree = "<group>"; };
 		6E7C0705B382DBE344B23AE716C65073 /* XMPPIDTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPIDTracker.h; path = Utilities/XMPPIDTracker.h; sourceTree = "<group>"; };
 		6F57A4D88AB8455BEAC996119C8D7012 /* XMPPStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPStream.h; path = Core/XMPPStream.h; sourceTree = "<group>"; };
-		6FA42982D8B6338E13D3A252855462C1 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-Info.plist"; sourceTree = "<group>"; };
 		703DE040E7623D31D1A5F289111F2746 /* XMPPDelayedDelivery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPDelayedDelivery.m; path = "Extensions/XEP-0203/XMPPDelayedDelivery.m"; sourceTree = "<group>"; };
 		707A008883F756628080F834C932C5B3 /* XMPPResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPResource.h; path = Extensions/Roster/XMPPResource.h; sourceTree = "<group>"; };
+		7090AF46E1001B44F5355A00223EAD74 /* Pods-VirtualAssistant-VirtualAssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistant-VirtualAssistantTests.release.xcconfig"; sourceTree = "<group>"; };
 		7181C800B37D1B40252EBBAEC1C59248 /* XMPPStreamManagementStanzas.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPStreamManagementStanzas.m; path = "Extensions/XEP-0198/Private/XMPPStreamManagementStanzas.m"; sourceTree = "<group>"; };
 		72436BD4D957860D248FD72D288849A2 /* XMPPIQ+LastActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPIQ+LastActivity.m"; path = "Extensions/XEP-0012/XMPPIQ+LastActivity.m"; sourceTree = "<group>"; };
 		7339D66BFC3901EECF4E6F1A442D8701 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		73BE1A6BF1F3F098C225F3FCC7D2ED64 /* Pods-VirtualAssistant-VirtualAssistantTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VirtualAssistant-VirtualAssistantTests-umbrella.h"; sourceTree = "<group>"; };
 		73CC9AAE82B3C36E35CE40F9510459A8 /* XMPPCapabilities+XEP_0359.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPCapabilities+XEP_0359.h"; path = "Extensions/XEP-0359/XMPPCapabilities+XEP_0359.h"; sourceTree = "<group>"; };
+		74DD594E43B1558A264FE32487CBF27B /* Pods-VirtualAssistantExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VirtualAssistantExample-frameworks.sh"; sourceTree = "<group>"; };
 		75DD0031D65A58873EAA197E77DF641A /* ImageFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFilter.swift; path = Source/ImageFilter.swift; sourceTree = "<group>"; };
 		7677F349E76D9D67163B6410A41BF7A4 /* XMPPvCardTempTel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPvCardTempTel.m; path = "Extensions/XEP-0054/XMPPvCardTempTel.m"; sourceTree = "<group>"; };
 		76A0C76A67622160AA0B789BBF6F01F6 /* XMPPIQ+XEP_0060.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPIQ+XEP_0060.h"; path = "Extensions/XEP-0060/XMPPIQ+XEP_0060.h"; sourceTree = "<group>"; };
@@ -911,6 +969,7 @@
 		7A64245A33A14197B98CBE84880DB0A1 /* XMPPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessage.h; path = Core/XMPPMessage.h; sourceTree = "<group>"; };
 		7A8D927E954291AA1F67D81D509DB0AF /* OMEMOKeyData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMEMOKeyData.m; path = Extensions/OMEMO/OMEMOKeyData.m; sourceTree = "<group>"; };
 		7B2EA3937C65A634B8C4FBCB64681C9B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		7C708CC9534497F11834383229AEAF37 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.modulemap"; sourceTree = "<group>"; };
 		7CD1DBE038234FCD683D563E3D4CDE8E /* NSXMLElement+XEP_0335.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+XEP_0335.h"; path = "Extensions/XEP-0335/NSXMLElement+XEP_0335.h"; sourceTree = "<group>"; };
 		7D0FDBC2444D056DD4F1B9029E313536 /* XMPPPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPPrivacy.h; path = "Extensions/XEP-0016/XMPPPrivacy.h"; sourceTree = "<group>"; };
 		7DCC5BAB46B07A4F5D47C62D864E10BF /* XMPPCapsResourceCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPCapsResourceCoreDataStorageObject.h; path = "Extensions/XEP-0115/CoreDataStorage/XMPPCapsResourceCoreDataStorageObject.h"; sourceTree = "<group>"; };
@@ -927,6 +986,7 @@
 		82E698D4CB072EF620911EC6BF31B4EA /* XMPPDateTimeProfiles.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPDateTimeProfiles.m; path = "Extensions/XEP-0082/XMPPDateTimeProfiles.m"; sourceTree = "<group>"; };
 		82F3D4B7B96834C613985875A771A74F /* XMPPResourceCoreDataStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPResourceCoreDataStorageObject.m; path = Extensions/Roster/CoreDataStorage/XMPPResourceCoreDataStorageObject.m; sourceTree = "<group>"; };
 		833E2BF5519504C77ADD3B038A92728C /* XMPPOutOfBandResourceMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPOutOfBandResourceMessaging.h; path = "Extensions/XEP-0066/XMPPOutOfBandResourceMessaging.h"; sourceTree = "<group>"; };
+		8440F581E1E3BD0C7A83FE836B54768A /* Pods-VirtualAssistant-VirtualAssistantTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VirtualAssistant-VirtualAssistantTests.modulemap"; sourceTree = "<group>"; };
 		8470BB3B6BB20462F928CD1AD78A0518 /* DDFileLogger+Buffering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDFileLogger+Buffering.m"; path = "Sources/CocoaLumberjack/Extensions/DDFileLogger+Buffering.m"; sourceTree = "<group>"; };
 		84E870BB00C42822AD24A52EE2CD9D99 /* XMPPRoomLightCoreDataStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRoomLightCoreDataStorage.m; path = Extensions/XMPPMUCLight/CoreDataStorage/XMPPRoomLightCoreDataStorage.m; sourceTree = "<group>"; };
 		8525BA3AB8A0699B0969A14201457411 /* XMPPMessageCarbons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessageCarbons.h; path = "Extensions/XEP-0280/XMPPMessageCarbons.h"; sourceTree = "<group>"; };
@@ -939,6 +999,7 @@
 		87FDD2B74BD2286291926A3A701C9640 /* XMPPAutoTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPAutoTime.m; path = "Extensions/XEP-0202/XMPPAutoTime.m"; sourceTree = "<group>"; };
 		893B159848979A478D87EBEA6D30914F /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		8950D2AE76E28F613E65D6317422D84A /* XMPPvCardAvatarCoreDataStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPvCardAvatarCoreDataStorageObject.m; path = "Extensions/XEP-0054/CoreDataStorage/XMPPvCardAvatarCoreDataStorageObject.m"; sourceTree = "<group>"; };
+		898586CFE42D650CEAA540B0811DE673 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8B3950979FB67ACCCF4456C449DD6DEF /* XMPPvCardTempCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempCoreDataStorageObject.h; path = "Extensions/XEP-0054/CoreDataStorage/XMPPvCardTempCoreDataStorageObject.h"; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7F07E4ADBC9F350CBB2DBB342C0645 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -952,6 +1013,7 @@
 		8F37564CBBD9085A33F730D32C8166A5 /* XMPPMessage+XEP_0066.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPMessage+XEP_0066.m"; path = "Extensions/XEP-0066/XMPPMessage+XEP_0066.m"; sourceTree = "<group>"; };
 		9016147E014EFBB90727C807EFA2B46C /* XMPPFileTransfer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPFileTransfer.m; path = Extensions/FileTransfer/XMPPFileTransfer.m; sourceTree = "<group>"; };
 		9054B1D08FCDFC146AEFA69A1F659693 /* stringprep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringprep.h; path = lib/stringprep.h; sourceTree = "<group>"; };
+		91DF0C939A47AC607AC8809576E360E2 /* Pods-VirtualAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistant.debug.xcconfig"; sourceTree = "<group>"; };
 		927410EBBC315C0CD8B5BF58265C1E61 /* XMPPCapabilities.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; name = XMPPCapabilities.xcdatamodel; path = "Extensions/XEP-0115/CoreDataStorage/XMPPCapabilities.xcdatamodel"; sourceTree = "<group>"; };
 		93B7FB7EF45BF7A0291A2322787527F2 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
 		94770E2EADE1DB733BF4258ABACF7CAB /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Sources/CocoaLumberjack/DDTTYLogger.m; sourceTree = "<group>"; };
@@ -963,38 +1025,34 @@
 		972FE68DDB01699AB26E5F25DCA7E1A2 /* XMPPInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPInternal.h; path = Core/XMPPInternal.h; sourceTree = "<group>"; };
 		977D6F8E027E735848B73DAA180B662C /* XMPPConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPConstants.h; path = Core/XMPPConstants.h; sourceTree = "<group>"; };
 		97F9281F85C32427970A3DA027FD304C /* NSXMLElement+OMEMO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSXMLElement+OMEMO.m"; path = "Extensions/OMEMO/NSXMLElement+OMEMO.m"; sourceTree = "<group>"; };
-		9906B4C1AAD5E0FE3EA890A5749CECF6 /* Pods-VirtualAssistant-VirtualAssistantTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VirtualAssistant-VirtualAssistantTests.modulemap"; sourceTree = "<group>"; };
+		98530F57507F1FB105E2C048A9D80C20 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		990A364D02AF4617E719EC153FC4061C /* Pods-VirtualAssistantExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VirtualAssistantExample.modulemap"; sourceTree = "<group>"; };
 		991758C09F621B75C8ABB693E6F3AD50 /* XMPPModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPModule.h; path = Core/XMPPModule.h; sourceTree = "<group>"; };
 		996D895F7CA3F018E72AFD7A2585049B /* XMPPTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPTime.h; path = "Extensions/XEP-0202/XMPPTime.h"; sourceTree = "<group>"; };
 		9A15F38FABF934D43E4C400CDBC94D2F /* XMPPCoreDataStorageProtected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPCoreDataStorageProtected.h; path = Extensions/CoreDataStorage/XMPPCoreDataStorageProtected.h; sourceTree = "<group>"; };
 		9B9D25377423A0FF15D21B70E2FE8717 /* NSDate+XMPPDateTimeProfiles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+XMPPDateTimeProfiles.h"; path = "Extensions/XEP-0082/NSDate+XMPPDateTimeProfiles.h"; sourceTree = "<group>"; };
 		9BC6FF985EDB51DBBDFE86A4B92F4F45 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
-		9C4D0618FE2D3BF4E6897BC08051D881 /* Pods-VirtualAssistant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VirtualAssistant.modulemap"; sourceTree = "<group>"; };
+		9BCF29B32BAB938B2ACC7487BA801172 /* Pods-VirtualAssistantExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VirtualAssistantExampleTests.modulemap"; sourceTree = "<group>"; };
 		9C578E79550BC62FCE79F89E5C445687 /* DDFileLogger+Buffering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Buffering.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger+Buffering.h"; sourceTree = "<group>"; };
 		9D2DCDDCBE784A85BD381A5B8D674259 /* OMEMOPreKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMEMOPreKey.h; path = Extensions/OMEMO/OMEMOPreKey.h; sourceTree = "<group>"; };
 		9D493E6761D244262B42A58417E62F19 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		9D895D6E3559E2E0233B85D3973B6D7D /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E1BD259C901755ECC8B3BE29A57CD14 /* XMPPIQ+JabberRPC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPIQ+JabberRPC.h"; path = "Extensions/XEP-0009/XMPPIQ+JabberRPC.h"; sourceTree = "<group>"; };
 		9E4A78473520F59EF1BB6952F3EEF47E /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		9E66848937E606FB42AEFEB8A5856228 /* XMPPModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPModule.m; path = Core/XMPPModule.m; sourceTree = "<group>"; };
-		9EED9B83765C367678B52B0FAB115ACD /* Pods-VirtualAssistant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VirtualAssistant-dummy.m"; sourceTree = "<group>"; };
 		9EF27DA4FD49696269FFE4FC735F2075 /* XMPPGroupCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPGroupCoreDataStorageObject.h; path = Extensions/Roster/CoreDataStorage/XMPPGroupCoreDataStorageObject.h; sourceTree = "<group>"; };
 		9F393D4C0A6AA4DD65923B4DA2B7674E /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		9F7FC9EB53A370D5E572EDC32068D7F0 /* NSNumber+XMPP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+XMPP.m"; path = "Categories/NSNumber+XMPP.m"; sourceTree = "<group>"; };
-		9FEA099CB6A579FF2709241C4634D998 /* Pods-VirtualAssistantExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExample-Info.plist"; sourceTree = "<group>"; };
 		9FF526CC60F0F0A1B1E27472C515C217 /* XMPPRosterCoreDataStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRosterCoreDataStorage.m; path = Extensions/Roster/CoreDataStorage/XMPPRosterCoreDataStorage.m; sourceTree = "<group>"; };
 		9FF9A133D39EE74522A1A960E2EA1D65 /* XMPPDigestMD5Authentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPDigestMD5Authentication.h; path = "Authentication/Digest-MD5/XMPPDigestMD5Authentication.h"; sourceTree = "<group>"; };
 		A024334EC523BF40218816F9F82F920B /* XMPPRoster.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRoster.m; path = Extensions/Roster/XMPPRoster.m; sourceTree = "<group>"; };
 		A0ABECA47495D67629C348D601714DBC /* XMPPvCardTempLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempLabel.h; path = "Extensions/XEP-0054/XMPPvCardTempLabel.h"; sourceTree = "<group>"; };
 		A149E20CE2EC10C8B032D20A8B7A4948 /* XMPPMessageArchiving.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = XMPPMessageArchiving.xcdatamodel; sourceTree = "<group>"; };
-		A15238046E599BDB36CA6C040CA4A801 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A1C8D25FAB93A9353F0D46376C6E610E /* XMPPFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMPPFramework-umbrella.h"; sourceTree = "<group>"; };
 		A251E3C705F3C56A9A3E6B28C5AEBB44 /* XMPPCapabilities+XEP_0359.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPCapabilities+XEP_0359.m"; path = "Extensions/XEP-0359/XMPPCapabilities+XEP_0359.m"; sourceTree = "<group>"; };
 		A26DEB40C44AE80085001333C910F3FD /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
 		A2DCFBAD8B2AC302456FD9949F98E00A /* XMPPResourceMemoryStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPResourceMemoryStorageObject.h; path = Extensions/Roster/MemoryStorage/XMPPResourceMemoryStorageObject.h; sourceTree = "<group>"; };
 		A323BC2566758E6ADD11EA86F5E18106 /* XMPPvCardTemp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTemp.h; path = "Extensions/XEP-0054/XMPPvCardTemp.h"; sourceTree = "<group>"; };
-		A36111A037D27958FEEFC4BC05B57331 /* Pods-VirtualAssistantExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VirtualAssistantExample-umbrella.h"; sourceTree = "<group>"; };
 		A3DFCE5AB67F810074214567E817A26C /* XMPPManagedMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPManagedMessaging.h; path = "Extensions/XEP-0198/Managed Messaging/XMPPManagedMessaging.h"; sourceTree = "<group>"; };
 		A4683D806A7A746853A0015B440BF743 /* XMPPStringPrep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPStringPrep.h; path = Utilities/XMPPStringPrep.h; sourceTree = "<group>"; };
 		A48D1F90C20512E5EBD2368C2E2DFC2E /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
@@ -1005,21 +1063,23 @@
 		A8F4B2774D667E632EB6426D760C4DB2 /* XEP_0223.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XEP_0223.m; path = "Extensions/XEP-0223/XEP_0223.m"; sourceTree = "<group>"; };
 		A9E4E2C5C7351AA4891D44185AD7906F /* XMPPMessageArchiving.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPMessageArchiving.m; path = "Extensions/XEP-0136/XMPPMessageArchiving.m"; sourceTree = "<group>"; };
 		A9F20FC646E3145731FAAE515DC30E79 /* NSXMLElement+XEP_0048.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+XEP_0048.h"; path = "Extensions/XEP-0048/NSXMLElement+XEP_0048.h"; sourceTree = "<group>"; };
+		AA0A948F2D6284FC2AA8CEC0E9CCA335 /* Pods-VirtualAssistant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VirtualAssistant-umbrella.h"; sourceTree = "<group>"; };
 		AA16CBFE1845F56F72375EDA52D0D475 /* OMEMOSignedPreKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMEMOSignedPreKey.m; path = Extensions/OMEMO/OMEMOSignedPreKey.m; sourceTree = "<group>"; };
-		ABDAE25C5B3F8D37B9AFC5FDD43C0EF9 /* Pods-VirtualAssistantExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExample.debug.xcconfig"; sourceTree = "<group>"; };
 		AC8E44E6984605A6EC7109F79ECC0BF4 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		AD4556D89804A44B119FF6DCECD4AE2A /* NSXMLElement+XEP_0352.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSXMLElement+XEP_0352.m"; path = "Extensions/XEP-0352/NSXMLElement+XEP_0352.m"; sourceTree = "<group>"; };
+		AD62296DE86792277A712971E5931102 /* Pods-VirtualAssistant-VirtualAssistantTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistant-VirtualAssistantTests-Info.plist"; sourceTree = "<group>"; };
 		AD8C947B8E39C6C71FB4D26CEE88D6DF /* XMPPMessageArchiving_Message_CoreDataObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPMessageArchiving_Message_CoreDataObject.m; path = "Extensions/XEP-0136/CoreDataStorage/XMPPMessageArchiving_Message_CoreDataObject.m"; sourceTree = "<group>"; };
 		AE123ED4F79A738535E3D7F0AEA63B40 /* profiles.c */ = {isa = PBXFileReference; includeInIndex = 1; name = profiles.c; path = lib/profiles.c; sourceTree = "<group>"; };
 		AE71D77DBCB63E7631C0B3B8E468B7A8 /* XMPPStreamManagementMemoryStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPStreamManagementMemoryStorage.m; path = "Extensions/XEP-0198/Memory Storage/XMPPStreamManagementMemoryStorage.m"; sourceTree = "<group>"; };
 		AF7C0B1BE0D3B1BB075B755A85A4ACCD /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = "Sources/CocoaLumberjack/Supporting Files/DDLegacyMacros.h"; sourceTree = "<group>"; };
+		AFDF46155A86F7FE91AD41906E283D74 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B027F595A4E0B7D6F04149E600573037 /* OMEMOBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMEMOBundle.h; path = Extensions/OMEMO/OMEMOBundle.h; sourceTree = "<group>"; };
-		B02DEDDEC4CAC14E02881C6F3B847FE9 /* Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B06958C710FBB744E008306B9AB0A2E0 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAssertMacros.h; sourceTree = "<group>"; };
 		B0E1A05B414652EC5D968816FDE8358F /* XMPPFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPFramework.h; path = Core/XMPPFramework.h; sourceTree = "<group>"; };
 		B11A3A1725963542AA6A2F9E248184CB /* NSData+XMPP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+XMPP.h"; path = "Categories/NSData+XMPP.h"; sourceTree = "<group>"; };
 		B1473C7344A3BE3513073E478D4EB617 /* XMPPSlot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPSlot.m; path = "Extensions/XEP-0363/XMPPSlot.m"; sourceTree = "<group>"; };
 		B154998186B3FC8CAC05B977517EBB31 /* XMPPvCardTempEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempEmail.h; path = "Extensions/XEP-0054/XMPPvCardTempEmail.h"; sourceTree = "<group>"; };
+		B1F8E33EB123E8B638A2B9033D1F64B5 /* Pods-VirtualAssistant-VirtualAssistantTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VirtualAssistant-VirtualAssistantTests-dummy.m"; sourceTree = "<group>"; };
 		B262A7D7F573D6F9FDD7BE9F1C44EF19 /* XMPPRoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoster.h; path = Extensions/Roster/XMPPRoster.h; sourceTree = "<group>"; };
 		B2815D0EA9D342C8AB2C4BC77D85C74D /* XMPPMessage+XEP0045.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPMessage+XEP0045.m"; path = "Extensions/XEP-0045/XMPPMessage+XEP0045.m"; sourceTree = "<group>"; };
 		B394307BC2B3D194AA9BE7A0DE394073 /* XMPPParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPParser.m; path = Core/XMPPParser.m; sourceTree = "<group>"; };
@@ -1027,25 +1087,21 @@
 		B3A5A1E7C82D08870393C8A16346784B /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
 		B46F5560DEA133DBF70E69FE15BDDC24 /* NSXMLElement+XEP_0048.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSXMLElement+XEP_0048.m"; path = "Extensions/XEP-0048/NSXMLElement+XEP_0048.m"; sourceTree = "<group>"; };
 		B51903E8D79FC9324D718AC844A745EF /* RFImageToDataTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFImageToDataTransformer.m; path = Utilities/RFImageToDataTransformer.m; sourceTree = "<group>"; };
-		B5505C45A8D039C1B9D4580E8022496E /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-dummy.m"; sourceTree = "<group>"; };
 		B572B6FC0CA2EF02A5B3EBD1808983EB /* XMPPMessageArchiving_Message_CoreDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessageArchiving_Message_CoreDataObject.h; path = "Extensions/XEP-0136/CoreDataStorage/XMPPMessageArchiving_Message_CoreDataObject.h"; sourceTree = "<group>"; };
 		B5AE7E372874353045A6704CC0C3EC39 /* XMPPMessageCarbons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPMessageCarbons.m; path = "Extensions/XEP-0280/XMPPMessageCarbons.m"; sourceTree = "<group>"; };
 		B5F9AB19EE72BB45A777E3F0D51F49A6 /* XMPPGoogleSharedStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPGoogleSharedStatus.h; path = Extensions/GoogleSharedStatus/XMPPGoogleSharedStatus.h; sourceTree = "<group>"; };
 		B61140728C3BAC436862010C3E3431B8 /* XMPPReconnect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPReconnect.m; path = Extensions/Reconnect/XMPPReconnect.m; sourceTree = "<group>"; };
-		B633A45B257DD8C7BD87DA611CA9CD76 /* Pods-VirtualAssistantExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		B685830618833CD3A7636451A7E738B3 /* XMPPMessage+XEP_0172.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPMessage+XEP_0172.m"; path = "Extensions/XEP-0172/XMPPMessage+XEP_0172.m"; sourceTree = "<group>"; };
 		B733C4D6E87A62B6571991F0187507D0 /* NSXMLElement+XEP_0059.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSXMLElement+XEP_0059.m"; path = "Extensions/XEP-0059/NSXMLElement+XEP_0059.m"; sourceTree = "<group>"; };
-		B7396E58AECE3E8362DC1B3083132C67 /* Pods-VirtualAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistant.release.xcconfig"; sourceTree = "<group>"; };
-		B743F197BE19F6F6FCB051A676AAA4A6 /* Pods-VirtualAssistantExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VirtualAssistantExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7660089159AAE9AAD93EB7EFF00A564 /* XMPPRoomOccupantMemoryStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRoomOccupantMemoryStorageObject.m; path = "Extensions/XEP-0045/MemoryStorage/XMPPRoomOccupantMemoryStorageObject.m"; sourceTree = "<group>"; };
 		B82A82282736E5B94E2C5D15E6296D3E /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
 		B8721B79010A284DB23BFF4A8A572B45 /* XMPPStreamManagementMemoryStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPStreamManagementMemoryStorage.h; path = "Extensions/XEP-0198/Memory Storage/XMPPStreamManagementMemoryStorage.h"; sourceTree = "<group>"; };
 		B88B9244C8226F3F338960AD22C967D7 /* XMPPRosterMemoryStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRosterMemoryStorage.h; path = Extensions/Roster/MemoryStorage/XMPPRosterMemoryStorage.h; sourceTree = "<group>"; };
-		B98C4818191FD47038C2A593A86E8D66 /* Pods-VirtualAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistant.debug.xcconfig"; sourceTree = "<group>"; };
 		B9E651A55F6A04BBD0BD813F28CED2A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B9F099F5621440C812055D31AD5722D4 /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
 		BA113AAB0DFEFCF1900C9732564F5658 /* XMPPvCardAvatarCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardAvatarCoreDataStorageObject.h; path = "Extensions/XEP-0054/CoreDataStorage/XMPPvCardAvatarCoreDataStorageObject.h"; sourceTree = "<group>"; };
 		BA5FA08C3833F25022FDC95266C5E953 /* XMPPIQ+XEP_0357.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPIQ+XEP_0357.h"; path = "Extensions/XEP-0357/XMPPIQ+XEP_0357.h"; sourceTree = "<group>"; };
+		BA7E148596987DD28B941086F20AB5C9 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-dummy.m"; sourceTree = "<group>"; };
 		BB9C83C1366B03EA50C7B6F41D850493 /* libidn-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libidn-prefix.pch"; sourceTree = "<group>"; };
 		BCFC10091A19C5B55266DAB51CB45F8F /* XMPPBookmarksStorageElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPBookmarksStorageElement.m; path = "Extensions/XEP-0048/XMPPBookmarksStorageElement.m"; sourceTree = "<group>"; };
 		BD11D1E847B60656299032122F0C4CBA /* XMPPUserCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPUserCoreDataStorageObject.h; path = Extensions/Roster/CoreDataStorage/XMPPUserCoreDataStorageObject.h; sourceTree = "<group>"; };
@@ -1056,7 +1112,6 @@
 		BE526EAA719832A9110602852DA1F8BE /* XMPPRoomHybrid.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = XMPPRoomHybrid.xcdatamodel; sourceTree = "<group>"; };
 		BEB72A71D4D62861541803EBC46A4396 /* XMPPXOAuth2Google.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPXOAuth2Google.m; path = "Authentication/X-OAuth2-Google/XMPPXOAuth2Google.m"; sourceTree = "<group>"; };
 		BECD1FC6660947C749D9592CC67FEC9F /* OMEMOModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMEMOModule.m; path = Extensions/OMEMO/OMEMOModule.m; sourceTree = "<group>"; };
-		BF2D3E8972C4B1ED5F1C97211EB767EC /* Pods-VirtualAssistant-VirtualAssistantTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VirtualAssistant-VirtualAssistantTests-frameworks.sh"; sourceTree = "<group>"; };
 		BFF59904E3D837514B12974ACEB385CA /* XMPPRoster.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; name = XMPPRoster.xcdatamodel; path = Extensions/Roster/CoreDataStorage/XMPPRoster.xcdatamodel; sourceTree = "<group>"; };
 		C0B99E190FA5AF3A9DE3CA3A56422091 /* XMPPIQ+XEP_0066.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPIQ+XEP_0066.m"; path = "Extensions/XEP-0066/XMPPIQ+XEP_0066.m"; sourceTree = "<group>"; };
 		C15149D64B25A2B411A97B481C58688C /* XMPPvCardTempBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPvCardTempBase.m; path = "Extensions/XEP-0054/XMPPvCardTempBase.m"; sourceTree = "<group>"; };
@@ -1065,16 +1120,14 @@
 		C350C5B90AE33ACE26D84BF00F1C6631 /* XMPPOneToOneChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPOneToOneChat.h; path = Extensions/OneToOneChat/XMPPOneToOneChat.h; sourceTree = "<group>"; };
 		C374BF26817481168CAB3C992DB4E575 /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPAnonymousAuthentication.h; path = Authentication/Anonymous/XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
 		C39B178C710F07836B2060229984CFC9 /* XMPPPresence+XEP_0172.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPPresence+XEP_0172.m"; path = "Extensions/XEP-0172/XMPPPresence+XEP_0172.m"; sourceTree = "<group>"; };
-		C3A110895554857F219DB7635C2656FA /* Pods-VirtualAssistant-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistant-acknowledgements.plist"; sourceTree = "<group>"; };
 		C3A274CD78A92B7596CD46E543E94328 /* XMPPManagedMessaging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPManagedMessaging.m; path = "Extensions/XEP-0198/Managed Messaging/XMPPManagedMessaging.m"; sourceTree = "<group>"; };
-		C3D43EBB4B176A7CB84B95C1CC975DB5 /* Pods-VirtualAssistant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VirtualAssistant-umbrella.h"; sourceTree = "<group>"; };
 		C4B0619D83F897189F1E4F64A33E4707 /* XMPPProcessOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPProcessOne.h; path = Extensions/ProcessOne/XMPPProcessOne.h; sourceTree = "<group>"; };
 		C5293739980B5732F3A02F45A68AC2BF /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
-		C554AC1BECBBC3CA250233F3BC9C9677 /* Pods-VirtualAssistantExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C65F3CE3445BB84ED9E069FB18ED8191 /* XMPPRoomMessageHybridCoreDataStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRoomMessageHybridCoreDataStorageObject.m; path = "Extensions/XEP-0045/HybridStorage/XMPPRoomMessageHybridCoreDataStorageObject.m"; sourceTree = "<group>"; };
 		C6FD9D95FDE3EF926DC23CCB02088CAB /* Pods-VirtualAssistant */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VirtualAssistant"; path = Pods_VirtualAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A07F47137069CC6A76412B7B8C1BAC /* NSString+XEP_0106.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+XEP_0106.m"; path = "Extensions/XEP-0106/NSString+XEP_0106.m"; sourceTree = "<group>"; };
 		C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8887740698B82810349FBD24730CCDD /* Pods-VirtualAssistant-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistant-acknowledgements.plist"; sourceTree = "<group>"; };
 		C8ED8D24A67206ED2F1EBF2AAA82880B /* XMPPStanzaIdModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPStanzaIdModule.h; path = "Extensions/XEP-0359/XMPPStanzaIdModule.h"; sourceTree = "<group>"; };
 		C96738C81EF75FB6A01AF1AB0E611D82 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		CB4C92053CED5CBA6AAB5E0C2F318AEF /* XMPPRoomLightMessageCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomLightMessageCoreDataStorageObject.h; path = Extensions/XMPPMUCLight/CoreDataStorage/XMPPRoomLightMessageCoreDataStorageObject.h; sourceTree = "<group>"; };
@@ -1083,6 +1136,7 @@
 		CC8B59DF5297FCE77854ABADAE29665F /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		CCD6A941D011703B247BCAABEDF29FE4 /* XMPPMessage+XEP_0280.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPMessage+XEP_0280.m"; path = "Extensions/XEP-0280/XMPPMessage+XEP_0280.m"; sourceTree = "<group>"; };
 		CCFC2BEF1EE679D5257859E5E508BA86 /* NSXMLElement+XEP_0359.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+XEP_0359.h"; path = "Extensions/XEP-0359/NSXMLElement+XEP_0359.h"; sourceTree = "<group>"; };
+		CD451D58F626411425D6976A249672AC /* Pods-VirtualAssistant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VirtualAssistant.modulemap"; sourceTree = "<group>"; };
 		CDC72A8A7A5A1C7C63796E4C8769FA81 /* XMPPAutoPing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPAutoPing.m; path = "Extensions/XEP-0199/XMPPAutoPing.m"; sourceTree = "<group>"; };
 		CE102A6CA5E1601E49C4E2B0A9EE99F6 /* XMPPRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRegistration.h; path = "Extensions/XEP-0077/XMPPRegistration.h"; sourceTree = "<group>"; };
 		CE159C922D856CEEEEA18E1A9C02BFC2 /* XMPPMessage+OMEMO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+OMEMO.h"; path = "Extensions/OMEMO/XMPPMessage+OMEMO.h"; sourceTree = "<group>"; };
@@ -1090,24 +1144,23 @@
 		CED4753F0C0FA2FB5C118B1D267CB0FC /* XMPPvCardTempBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempBase.h; path = "Extensions/XEP-0054/XMPPvCardTempBase.h"; sourceTree = "<group>"; };
 		CEEA56C24813718E73B3D0221D22601E /* XMPPMessage+XEP_0085.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPMessage+XEP_0085.m"; path = "Extensions/XEP-0085/XMPPMessage+XEP_0085.m"; sourceTree = "<group>"; };
 		CEFAF89075EEE5E2CB2F3C63B7395AD9 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
+		CF44F829848FEA432874A9FDD4FFF344 /* Pods-VirtualAssistant-VirtualAssistantTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VirtualAssistant-VirtualAssistantTests-frameworks.sh"; sourceTree = "<group>"; };
 		CF99F895890DC05B82D75BC24EC07B0D /* XMPPMessageDeliveryReceipts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessageDeliveryReceipts.h; path = "Extensions/XEP-0184/XMPPMessageDeliveryReceipts.h"; sourceTree = "<group>"; };
 		D07C12C76F86FCEE5FCA7E23E9338FF2 /* XMPPJID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPJID.m; path = Core/XMPPJID.m; sourceTree = "<group>"; };
 		D081AD1E2025381E6AF0D8B4A90BEE8A /* KissXML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KissXML.debug.xcconfig; sourceTree = "<group>"; };
 		D08F62AB752BDA37C36B615B002525C1 /* XMPPPlainAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPPlainAuthentication.h; path = Authentication/Plain/XMPPPlainAuthentication.h; sourceTree = "<group>"; };
 		D1048329C9E4A17D1840C61BB49B3756 /* OMEMOBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMEMOBundle.m; path = Extensions/OMEMO/OMEMOBundle.m; sourceTree = "<group>"; };
 		D10DA9A15246EEF1209D115A5C5CA64D /* XMPPGroupCoreDataStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPGroupCoreDataStorageObject.m; path = Extensions/Roster/CoreDataStorage/XMPPGroupCoreDataStorageObject.m; sourceTree = "<group>"; };
-		D15BE51A4ABB2891FDD4339A8C39E390 /* Pods-VirtualAssistantExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VirtualAssistantExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D16BB092063AD121F997C12E2D50D1B1 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		D183C8BACB3EAD73BE26015D4F9BF782 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		D30E21041CB6FE22E9E18249EABCE11F /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3C086C4041F1C9B7AA0957789106B58 /* XMPPTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPTime.m; path = "Extensions/XEP-0202/XMPPTime.m"; sourceTree = "<group>"; };
 		D3F59AAD46004200777866A6847CB24B /* DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXML.h; path = KissXML/DDXML.h; sourceTree = "<group>"; };
 		D42FCEC3127BAB15CEA56C13D7D1612C /* XMPPAutoTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPAutoTime.h; path = "Extensions/XEP-0202/XMPPAutoTime.h"; sourceTree = "<group>"; };
 		D441DFA11FD4FD229E964D711626D111 /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Request+AlamofireImage.swift"; path = "Source/Request+AlamofireImage.swift"; sourceTree = "<group>"; };
-		D44A77F17583EA9BD2F3F0BB2853266A /* Pods-VirtualAssistant-VirtualAssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistant-VirtualAssistantTests.release.xcconfig"; sourceTree = "<group>"; };
 		D4FF0082D6CF170A66BF8726E2D992B6 /* XMPPvCardTempLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPvCardTempLabel.m; path = "Extensions/XEP-0054/XMPPvCardTempLabel.m"; sourceTree = "<group>"; };
 		D6771C7CE611BBFA004B6BD7599AAB03 /* XMPPCapabilitiesCoreDataStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPCapabilitiesCoreDataStorage.m; path = "Extensions/XEP-0115/CoreDataStorage/XMPPCapabilitiesCoreDataStorage.m"; sourceTree = "<group>"; };
 		D68125A95E8C53A448BDA502CC5F07F6 /* XMPPDelayedDelivery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPDelayedDelivery.h; path = "Extensions/XEP-0203/XMPPDelayedDelivery.h"; sourceTree = "<group>"; };
-		D6CD52FEC85BACA5393E559D91BE45FA /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.modulemap"; sourceTree = "<group>"; };
 		D70D7A135E375FB22B603715EEAB3C4E /* libidn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libidn.h; path = Framework/libidn.h; sourceTree = "<group>"; };
 		D7479D5E52AFF6896EAF8A679D01382D /* XMPPCapabilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPCapabilities.m; path = "Extensions/XEP-0115/XMPPCapabilities.m"; sourceTree = "<group>"; };
 		D770498D8EA9DE5A028FB803C2965531 /* libidn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libidn-dummy.m"; sourceTree = "<group>"; };
@@ -1119,6 +1172,7 @@
 		D9D7A7AFF8CFD095DEBAE92C95081DA9 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		D9FFAC732304376E9F425C1E79EE0BBC /* XMPPElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPElement.h; path = Core/XMPPElement.h; sourceTree = "<group>"; };
 		DADC094646E99D278ACF45F9D14983F9 /* nfkc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = nfkc.c; path = lib/nfkc.c; sourceTree = "<group>"; };
+		DB136CE1FF026702083BF193BA1B31A0 /* Pods-VirtualAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistant.release.xcconfig"; sourceTree = "<group>"; };
 		DB6034F6A76D0BA5CA7C40961F3BE63D /* XMPPUserMemoryStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPUserMemoryStorageObject.m; path = Extensions/Roster/MemoryStorage/XMPPUserMemoryStorageObject.m; sourceTree = "<group>"; };
 		DBD11FB9BDAFD306626070C3372C4E6D /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
 		DC47047CCB2377250D98AB961FB3151C /* XMPPOutgoingFileTransfer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPOutgoingFileTransfer.m; path = Extensions/FileTransfer/XMPPOutgoingFileTransfer.m; sourceTree = "<group>"; };
@@ -1133,7 +1187,6 @@
 		E23544413D1F3ABA497C6EA90E628705 /* XMPPRoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoom.h; path = "Extensions/XEP-0045/XMPPRoom.h"; sourceTree = "<group>"; };
 		E3D64F6CEE3AA8DB7EE054540CD36011 /* XMPPRoomMessageMemoryStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRoomMessageMemoryStorageObject.m; path = "Extensions/XEP-0045/MemoryStorage/XMPPRoomMessageMemoryStorageObject.m"; sourceTree = "<group>"; };
 		E418F74C582188BB6D6815D2E9E0782D /* AlamofireImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlamofireImage-Info.plist"; sourceTree = "<group>"; };
-		E419FD07E625788FCD8951405F6A7083 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E41D4F6F0823CCCE579C59B21AAE57BA /* XMPPConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPConstants.m; path = Core/XMPPConstants.m; sourceTree = "<group>"; };
 		E4984099802FB4A6183C43DF7FF0B524 /* XMPPRoomLightCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomLightCoreDataStorage.h; path = Extensions/XMPPMUCLight/CoreDataStorage/XMPPRoomLightCoreDataStorage.h; sourceTree = "<group>"; };
 		E4AB2784546690C3DA7ABE12EE95E159 /* DDXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLNode.m; path = KissXML/DDXMLNode.m; sourceTree = "<group>"; };
@@ -1149,9 +1202,11 @@
 		E6EBB0F85DF3EED61D0B15777630D16A /* XMPPMessage+XEP_0359.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPMessage+XEP_0359.m"; path = "Extensions/XEP-0359/XMPPMessage+XEP_0359.m"; sourceTree = "<group>"; };
 		EA200B0B0FA68ED2A73D8F4D493AAC0E /* XMPPRoomMessageCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomMessageCoreDataStorageObject.h; path = "Extensions/XEP-0045/CoreDataStorage/XMPPRoomMessageCoreDataStorageObject.h"; sourceTree = "<group>"; };
 		EB94CECDAAC75289E800AA4A8D3C0AD5 /* XMPPvCardCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardCoreDataStorageObject.h; path = "Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorageObject.h"; sourceTree = "<group>"; };
+		EBBCF7BFA754199E26C024989E81C9AB /* Pods-VirtualAssistant-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VirtualAssistant-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC4A89EEC40DA949AEA120DB4D00974A /* XMPPRoomCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomCoreDataStorage.h; path = "Extensions/XEP-0045/CoreDataStorage/XMPPRoomCoreDataStorage.h"; sourceTree = "<group>"; };
 		ECC2334B41A50BEC33AADE96901727E8 /* libidn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libidn.modulemap; sourceTree = "<group>"; };
 		ECF5EE46ED8840F2159860186ADD73A6 /* XMPPMUC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPMUC.m; path = "Extensions/XEP-0045/XMPPMUC.m"; sourceTree = "<group>"; };
+		ED2FBF8E26FFF69EAC2FF28D805FAB11 /* Pods-VirtualAssistant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VirtualAssistant-dummy.m"; sourceTree = "<group>"; };
 		ED6723612FDF470014FEEA2440592458 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
 		EDC4B0ADC99B6830311B0CB85C1D67F8 /* DDXMLPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLPrivate.h; path = KissXML/Private/DDXMLPrivate.h; sourceTree = "<group>"; };
 		EE02DFE04FA41F3D18566AF4F8122D3F /* XMPPvCardTempAdr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempAdr.h; path = "Extensions/XEP-0054/XMPPvCardTempAdr.h"; sourceTree = "<group>"; };
@@ -1161,6 +1216,7 @@
 		EF09B66B34194A0AA2A1ACA78A256E67 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		EFDEB4D8E4DB7366C7DE1FD5C85DB4D8 /* XMPPAttentionModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPAttentionModule.m; path = "Extensions/XEP-0224/XMPPAttentionModule.m"; sourceTree = "<group>"; };
 		EFE182F147730A212C8857C6C9C5B588 /* XMPPPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPPrivacy.m; path = "Extensions/XEP-0016/XMPPPrivacy.m"; sourceTree = "<group>"; };
+		F047F0AB92135A3419AD1F69F3C8DCC8 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-Info.plist"; sourceTree = "<group>"; };
 		F06118F23D576FB51025EB7F8D5744E9 /* XMPPRoomMemoryStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRoomMemoryStorage.m; path = "Extensions/XEP-0045/MemoryStorage/XMPPRoomMemoryStorage.m"; sourceTree = "<group>"; };
 		F07114DB439B8ACCA7BD9D20894F7BE5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		F091AF0D27A060F4883A6795C0446317 /* XMPPCapsCoreDataStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPCapsCoreDataStorageObject.m; path = "Extensions/XEP-0115/CoreDataStorage/XMPPCapsCoreDataStorageObject.m"; sourceTree = "<group>"; };
@@ -1171,7 +1227,8 @@
 		F17830ED45CA7AD6A24B4D5FC4D8787B /* XMPPTransports.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPTransports.m; path = "Extensions/XEP-0100/XMPPTransports.m"; sourceTree = "<group>"; };
 		F1E2261DC17BC206ADEC91267B7F1B1E /* OMEMOPreKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMEMOPreKey.m; path = Extensions/OMEMO/OMEMOPreKey.m; sourceTree = "<group>"; };
 		F23C9D15CEFD8CDF8DB3CD9ABC66A8CA /* XMPPSRVResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPSRVResolver.m; path = Utilities/XMPPSRVResolver.m; sourceTree = "<group>"; };
-		F257EBEFE26C2B9AAB44414EBB013DB9 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F27327AE56C3328A5AFF73EB4CBC38B2 /* Pods-VirtualAssistantExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VirtualAssistantExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		F27E9857EFA8FEE5039EF5A563613E27 /* Pods-VirtualAssistantExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExample.release.xcconfig"; sourceTree = "<group>"; };
 		F2ECC71E95870E66604981439FABF4C4 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
 		F399CA55C285CF0CA3C6000F8A1DB2E2 /* XMPPMUCLight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPMUCLight.m; path = Extensions/XMPPMUCLight/XMPPMUCLight.m; sourceTree = "<group>"; };
 		F3DBA469070B283D8054B72BCDCDA7E1 /* XMPPAutoPing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPAutoPing.h; path = "Extensions/XEP-0199/XMPPAutoPing.h"; sourceTree = "<group>"; };
@@ -1181,7 +1238,6 @@
 		F4C317D4C69297E8808F9877238A863F /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElementAdditions.m; path = KissXML/Additions/DDXMLElementAdditions.m; sourceTree = "<group>"; };
 		F54E0C28778BFB49A5931C3F2BBE6BCA /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Sources/CocoaLumberjack/DDLog.m; sourceTree = "<group>"; };
 		F5D61024353DE6AFE9ACFE56AD6527CC /* DDList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDList.m; path = Utilities/DDList.m; sourceTree = "<group>"; };
-		F5F860D7A28C18FFA44E25269F20A158 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F6F7AA2ECF3F59DE097278B35BD7C626 /* XMPPIncomingFileTransfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPIncomingFileTransfer.h; path = Extensions/FileTransfer/XMPPIncomingFileTransfer.h; sourceTree = "<group>"; };
 		F7CBDDE7EF6A930032378DE6499223F1 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		F7D416598905878DDF4F73B40D6DDF11 /* XMPPMessageArchiving_Contact_CoreDataObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPMessageArchiving_Contact_CoreDataObject.m; path = "Extensions/XEP-0136/CoreDataStorage/XMPPMessageArchiving_Contact_CoreDataObject.m"; sourceTree = "<group>"; };
@@ -1193,6 +1249,7 @@
 		FBD8F86958879B57A9A6BAB65C7FD04A /* XMPPIQ+XEP_0060.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPIQ+XEP_0060.m"; path = "Extensions/XEP-0060/XMPPIQ+XEP_0060.m"; sourceTree = "<group>"; };
 		FC684A3D8B56FEAC167AD508B04DECB3 /* NSXMLElement+OMEMO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+OMEMO.h"; path = "Extensions/OMEMO/NSXMLElement+OMEMO.h"; sourceTree = "<group>"; };
 		FCDD0E7CDB7DD0C8F3941EC89EFC7339 /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
+		FDAD05A29FA90900E7E65B78795CA693 /* Pods-VirtualAssistantExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VirtualAssistantExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		FDBB7BF56FA76B5AFDB57318C4F39BEF /* XMPPMessage+XEP_0224.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPMessage+XEP_0224.m"; path = "Extensions/XEP-0224/XMPPMessage+XEP_0224.m"; sourceTree = "<group>"; };
 		FE30FF02A4A09B9242DFC4819474D57A /* XMPPRoomMessageCoreDataStorageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPPRoomMessageCoreDataStorageObject.m; path = "Extensions/XEP-0045/CoreDataStorage/XMPPRoomMessageCoreDataStorageObject.m"; sourceTree = "<group>"; };
 		FFD982D5F761097D2963CC822EAEE956 /* XMPPIQ+OMEMO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMPPIQ+OMEMO.m"; path = "Extensions/OMEMO/XMPPIQ+OMEMO.m"; sourceTree = "<group>"; };
@@ -1200,6 +1257,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A0E6B592DA9F1EDC01D372FFCE52665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1556657DBE366E84864438ABCF85D8B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38691C28A63B01C3C04DFDF174353C7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1214,14 +1279,6 @@
 			files = (
 				33F86FAB918B148A63A1575667F9B570 /* CFNetwork.framework in Frameworks */,
 				9C0BE8FA0030B2BC1DF7C159FA059389 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49E54E2998412D092A145D7986785BD5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				860CD59D608A621377B1E9A855823308 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1328,18 +1385,6 @@
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
-		03D645ECF3D2078C66B8D1A5168988F5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8C23DDE0759B650963193F4FCC0D6738 /* Pods-VirtualAssistant */,
-				96F108C1C222A53743144E2F42D3614D /* Pods-VirtualAssistant-VirtualAssistantTests */,
-				CE047BC8A7CDAA84BC3A11E5BE8A5FE4 /* Pods-VirtualAssistantExample */,
-				C023B38C3F988BC07F738B248F22F96D /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests */,
-				74414417F838D089F02B1193A4587ED2 /* Pods-VirtualAssistantExampleTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		04191B58D1B89EDCD9056CC46BC75D65 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1414,6 +1459,23 @@
 			path = "../Target Support Files/libidn";
 			sourceTree = "<group>";
 		};
+		28225B6B1F4C89A0FED87D3267C76CB6 /* Pods-VirtualAssistant-VirtualAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				8440F581E1E3BD0C7A83FE836B54768A /* Pods-VirtualAssistant-VirtualAssistantTests.modulemap */,
+				3CC096D045BC42901BC3FDA8C412EA57 /* Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.markdown */,
+				0D6CF52CD7C666D2EEE1A92E3512F6B8 /* Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.plist */,
+				B1F8E33EB123E8B638A2B9033D1F64B5 /* Pods-VirtualAssistant-VirtualAssistantTests-dummy.m */,
+				CF44F829848FEA432874A9FDD4FFF344 /* Pods-VirtualAssistant-VirtualAssistantTests-frameworks.sh */,
+				AD62296DE86792277A712971E5931102 /* Pods-VirtualAssistant-VirtualAssistantTests-Info.plist */,
+				73BE1A6BF1F3F098C225F3FCC7D2ED64 /* Pods-VirtualAssistant-VirtualAssistantTests-umbrella.h */,
+				053105E480DB00252609B9E9FCDC8667 /* Pods-VirtualAssistant-VirtualAssistantTests.debug.xcconfig */,
+				7090AF46E1001B44F5355A00223EAD74 /* Pods-VirtualAssistant-VirtualAssistantTests.release.xcconfig */,
+			);
+			name = "Pods-VirtualAssistant-VirtualAssistantTests";
+			path = "Target Support Files/Pods-VirtualAssistant-VirtualAssistantTests";
+			sourceTree = "<group>";
+		};
 		2888101C08FF0C18627A7627107EC59D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1427,6 +1489,22 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		2E06B06B89F0D962A9A2EB02942E8EAA /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C708CC9534497F11834383229AEAF37 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.modulemap */,
+				4F990CAFF1747AA2B4C2AF73A4F06B36 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.markdown */,
+				898586CFE42D650CEAA540B0811DE673 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.plist */,
+				BA7E148596987DD28B941086F20AB5C9 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-dummy.m */,
+				F047F0AB92135A3419AD1F69F3C8DCC8 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-Info.plist */,
+				98530F57507F1FB105E2C048A9D80C20 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-umbrella.h */,
+				D30E21041CB6FE22E9E18249EABCE11F /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.debug.xcconfig */,
+				AFDF46155A86F7FE91AD41906E283D74 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests";
+			path = "Target Support Files/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests";
 			sourceTree = "<group>";
 		};
 		2F0E096AA5C76C0514107224A6E36AD0 /* Support Files */ = {
@@ -1557,6 +1635,18 @@
 			path = CocoaLumberjack;
 			sourceTree = "<group>";
 		};
+		64A6F205341DE34719AFF8D3508A5C07 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6D149FBDBDEBB61545CC83681489D2 /* Pods-VirtualAssistant */,
+				28225B6B1F4C89A0FED87D3267C76CB6 /* Pods-VirtualAssistant-VirtualAssistantTests */,
+				FC8F6ADC4486581ABC7B598A4AA0F3F1 /* Pods-VirtualAssistantExample */,
+				2E06B06B89F0D962A9A2EB02942E8EAA /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests */,
+				9E5E7A2A17D197A901C9A84152948C37 /* Pods-VirtualAssistantExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		70B8699357F031F0CA0B3A05AA3D77E3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1570,22 +1660,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		74414417F838D089F02B1193A4587ED2 /* Pods-VirtualAssistantExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				2AB43F790D9C4F6E61B79A04031D360A /* Pods-VirtualAssistantExampleTests.modulemap */,
-				D15BE51A4ABB2891FDD4339A8C39E390 /* Pods-VirtualAssistantExampleTests-acknowledgements.markdown */,
-				5ADDFC7C96D5F867FD555C42E71299C7 /* Pods-VirtualAssistantExampleTests-acknowledgements.plist */,
-				56AB9778F8116B04BB1F9BAE91CA7D0D /* Pods-VirtualAssistantExampleTests-dummy.m */,
-				2D50E2D903AF8BB0AC270CB1E4F111B1 /* Pods-VirtualAssistantExampleTests-Info.plist */,
-				6E5A532E22593303783A9C55C0C88559 /* Pods-VirtualAssistantExampleTests-umbrella.h */,
-				C554AC1BECBBC3CA250233F3BC9C9677 /* Pods-VirtualAssistantExampleTests.debug.xcconfig */,
-				4726919C1825D6C1FA6169CF961F507A /* Pods-VirtualAssistantExampleTests.release.xcconfig */,
-			);
-			name = "Pods-VirtualAssistantExampleTests";
-			path = "Target Support Files/Pods-VirtualAssistantExampleTests";
 			sourceTree = "<group>";
 		};
 		7D8979039ACD323AA6A8EB0CC1BCC75B /* Additions */ = {
@@ -1622,22 +1696,6 @@
 			path = XMPPFramework;
 			sourceTree = "<group>";
 		};
-		8C23DDE0759B650963193F4FCC0D6738 /* Pods-VirtualAssistant */ = {
-			isa = PBXGroup;
-			children = (
-				9C4D0618FE2D3BF4E6897BC08051D881 /* Pods-VirtualAssistant.modulemap */,
-				5F69CB781AC6BDC12BEB6B1C59C88E0E /* Pods-VirtualAssistant-acknowledgements.markdown */,
-				C3A110895554857F219DB7635C2656FA /* Pods-VirtualAssistant-acknowledgements.plist */,
-				9EED9B83765C367678B52B0FAB115ACD /* Pods-VirtualAssistant-dummy.m */,
-				0E3B4D5D56CA84B77EF56EB1CEBA1B60 /* Pods-VirtualAssistant-Info.plist */,
-				C3D43EBB4B176A7CB84B95C1CC975DB5 /* Pods-VirtualAssistant-umbrella.h */,
-				B98C4818191FD47038C2A593A86E8D66 /* Pods-VirtualAssistant.debug.xcconfig */,
-				B7396E58AECE3E8362DC1B3083132C67 /* Pods-VirtualAssistant.release.xcconfig */,
-			);
-			name = "Pods-VirtualAssistant";
-			path = "Target Support Files/Pods-VirtualAssistant";
-			sourceTree = "<group>";
-		};
 		8D3C0BE912F08E24DE7C6E656342F92A /* KissXML */ = {
 			isa = PBXGroup;
 			children = (
@@ -1664,21 +1722,20 @@
 			path = "../Target Support Files/CocoaLumberjack";
 			sourceTree = "<group>";
 		};
-		96F108C1C222A53743144E2F42D3614D /* Pods-VirtualAssistant-VirtualAssistantTests */ = {
+		9E5E7A2A17D197A901C9A84152948C37 /* Pods-VirtualAssistantExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				9906B4C1AAD5E0FE3EA890A5749CECF6 /* Pods-VirtualAssistant-VirtualAssistantTests.modulemap */,
-				B02DEDDEC4CAC14E02881C6F3B847FE9 /* Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.markdown */,
-				07B8FF8C722672819EA298114F8B9367 /* Pods-VirtualAssistant-VirtualAssistantTests-acknowledgements.plist */,
-				3ABDDE7E0C32122EFC6103ABC33A4062 /* Pods-VirtualAssistant-VirtualAssistantTests-dummy.m */,
-				BF2D3E8972C4B1ED5F1C97211EB767EC /* Pods-VirtualAssistant-VirtualAssistantTests-frameworks.sh */,
-				5A367151B069D3E882D2D0B42F0C8156 /* Pods-VirtualAssistant-VirtualAssistantTests-Info.plist */,
-				47524D177F616AC7D4197D95CD18F9D3 /* Pods-VirtualAssistant-VirtualAssistantTests-umbrella.h */,
-				6A74E3C2540220798526AEA8DC6A10CE /* Pods-VirtualAssistant-VirtualAssistantTests.debug.xcconfig */,
-				D44A77F17583EA9BD2F3F0BB2853266A /* Pods-VirtualAssistant-VirtualAssistantTests.release.xcconfig */,
+				9BCF29B32BAB938B2ACC7487BA801172 /* Pods-VirtualAssistantExampleTests.modulemap */,
+				42E20ED7FA30D9E2D98305A36225A57B /* Pods-VirtualAssistantExampleTests-acknowledgements.markdown */,
+				26742FA36703ADFA899EF0F1F73A680B /* Pods-VirtualAssistantExampleTests-acknowledgements.plist */,
+				3620B66E8358540F425A03237DED0695 /* Pods-VirtualAssistantExampleTests-dummy.m */,
+				5D9DC09B3B6077182051E3B81C7C0D10 /* Pods-VirtualAssistantExampleTests-Info.plist */,
+				F27327AE56C3328A5AFF73EB4CBC38B2 /* Pods-VirtualAssistantExampleTests-umbrella.h */,
+				51B41AAC3E46688034FF32656DAD24C2 /* Pods-VirtualAssistantExampleTests.debug.xcconfig */,
+				FDAD05A29FA90900E7E65B78795CA693 /* Pods-VirtualAssistantExampleTests.release.xcconfig */,
 			);
-			name = "Pods-VirtualAssistant-VirtualAssistantTests";
-			path = "Target Support Files/Pods-VirtualAssistant-VirtualAssistantTests";
+			name = "Pods-VirtualAssistantExampleTests";
+			path = "Target Support Files/Pods-VirtualAssistantExampleTests";
 			sourceTree = "<group>";
 		};
 		9F269B0B00675FC8902D9E9CEBE0CC67 /* Resources */ = {
@@ -1736,38 +1793,6 @@
 			path = libidn;
 			sourceTree = "<group>";
 		};
-		C023B38C3F988BC07F738B248F22F96D /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D6CD52FEC85BACA5393E559D91BE45FA /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.modulemap */,
-				E419FD07E625788FCD8951405F6A7083 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.markdown */,
-				A15238046E599BDB36CA6C040CA4A801 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-acknowledgements.plist */,
-				B5505C45A8D039C1B9D4580E8022496E /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-dummy.m */,
-				6FA42982D8B6338E13D3A252855462C1 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-Info.plist */,
-				9D895D6E3559E2E0233B85D3973B6D7D /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-umbrella.h */,
-				F257EBEFE26C2B9AAB44414EBB013DB9 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.debug.xcconfig */,
-				F5F860D7A28C18FFA44E25269F20A158 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.release.xcconfig */,
-			);
-			name = "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests";
-			path = "Target Support Files/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests";
-			sourceTree = "<group>";
-		};
-		CE047BC8A7CDAA84BC3A11E5BE8A5FE4 /* Pods-VirtualAssistantExample */ = {
-			isa = PBXGroup;
-			children = (
-				52E9D7C6639DCA4763539F4EBB5070AF /* Pods-VirtualAssistantExample.modulemap */,
-				B743F197BE19F6F6FCB051A676AAA4A6 /* Pods-VirtualAssistantExample-acknowledgements.markdown */,
-				B633A45B257DD8C7BD87DA611CA9CD76 /* Pods-VirtualAssistantExample-acknowledgements.plist */,
-				2F0983CD6FAFF6211AD326CEFBFD4B1A /* Pods-VirtualAssistantExample-dummy.m */,
-				9FEA099CB6A579FF2709241C4634D998 /* Pods-VirtualAssistantExample-Info.plist */,
-				A36111A037D27958FEEFC4BC05B57331 /* Pods-VirtualAssistantExample-umbrella.h */,
-				ABDAE25C5B3F8D37B9AFC5FDD43C0EF9 /* Pods-VirtualAssistantExample.debug.xcconfig */,
-				6E6C7585795955B6089E53DDC2DBFDBA /* Pods-VirtualAssistantExample.release.xcconfig */,
-			);
-			name = "Pods-VirtualAssistantExample";
-			path = "Target Support Files/Pods-VirtualAssistantExample";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -1775,8 +1800,24 @@
 				F119B4A0ABE017AECEE69836596133B2 /* Frameworks */,
 				D9A1CF22A1A43E3FAF14A55DE0B3FCB5 /* Pods */,
 				A322E9D6147337C8017F246866505C93 /* Products */,
-				03D645ECF3D2078C66B8D1A5168988F5 /* Targets Support Files */,
+				64A6F205341DE34719AFF8D3508A5C07 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF6D149FBDBDEBB61545CC83681489D2 /* Pods-VirtualAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				CD451D58F626411425D6976A249672AC /* Pods-VirtualAssistant.modulemap */,
+				EBBCF7BFA754199E26C024989E81C9AB /* Pods-VirtualAssistant-acknowledgements.markdown */,
+				C8887740698B82810349FBD24730CCDD /* Pods-VirtualAssistant-acknowledgements.plist */,
+				ED2FBF8E26FFF69EAC2FF28D805FAB11 /* Pods-VirtualAssistant-dummy.m */,
+				54B16A86AD98EE275D05D26AB61EBB20 /* Pods-VirtualAssistant-Info.plist */,
+				AA0A948F2D6284FC2AA8CEC0E9CCA335 /* Pods-VirtualAssistant-umbrella.h */,
+				91DF0C939A47AC607AC8809576E360E2 /* Pods-VirtualAssistant.debug.xcconfig */,
+				DB136CE1FF026702083BF193BA1B31A0 /* Pods-VirtualAssistant.release.xcconfig */,
+			);
+			name = "Pods-VirtualAssistant";
+			path = "Target Support Files/Pods-VirtualAssistant";
 			sourceTree = "<group>";
 		};
 		D9A1CF22A1A43E3FAF14A55DE0B3FCB5 /* Pods */ = {
@@ -2141,6 +2182,23 @@
 			path = "../Target Support Files/KissXML";
 			sourceTree = "<group>";
 		};
+		FC8F6ADC4486581ABC7B598A4AA0F3F1 /* Pods-VirtualAssistantExample */ = {
+			isa = PBXGroup;
+			children = (
+				990A364D02AF4617E719EC153FC4061C /* Pods-VirtualAssistantExample.modulemap */,
+				65AF54C78DA0EE78A66FD3B1A9C5EDBE /* Pods-VirtualAssistantExample-acknowledgements.markdown */,
+				5C02F8B5570C7F3628A464F1767D62C0 /* Pods-VirtualAssistantExample-acknowledgements.plist */,
+				660C6DA8005D69F5162B1A6D6BBB00D2 /* Pods-VirtualAssistantExample-dummy.m */,
+				74DD594E43B1558A264FE32487CBF27B /* Pods-VirtualAssistantExample-frameworks.sh */,
+				1B4DA348AD4D939D6A702ADEB3EA1B01 /* Pods-VirtualAssistantExample-Info.plist */,
+				65826EDD5E5E81D63A284963355774C6 /* Pods-VirtualAssistantExample-umbrella.h */,
+				1470888078568A0974706E88E741D334 /* Pods-VirtualAssistantExample.debug.xcconfig */,
+				F27E9857EFA8FEE5039EF5A563613E27 /* Pods-VirtualAssistantExample.release.xcconfig */,
+			);
+			name = "Pods-VirtualAssistantExample";
+			path = "Target Support Files/Pods-VirtualAssistantExample";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2364,14 +2422,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		330A3D714A710B8FA27F67A83F15DE26 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D89BBAC76951D0FE848AE49D75B512C /* Pods-VirtualAssistantExample-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		409B3CE5B5E87D94335B1D2B5003753D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2416,6 +2466,14 @@
 				C8901A35A22CE26F3A7B44B90526DE56 /* KissXML.h in Headers */,
 				4206A56CEF861613341ED4F9ECA2837B /* KissXML-umbrella.h in Headers */,
 				3A87E5CF243968B581C03DACDDB00BD3 /* NSString+DDXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8060E0EA4A72FF3AB5CEAB66098B0ADF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB9CED8350A2F9F406CAECC0B3DEAEB /* Pods-VirtualAssistantExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2694,16 +2752,24 @@
 		};
 		FAB73A8957A88AFF1A4A3C2495A22A85 /* Pods-VirtualAssistantExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E3E250F3419726FFD44C4161B95CAAE /* Build configuration list for PBXNativeTarget "Pods-VirtualAssistantExample" */;
+			buildConfigurationList = CEE07F68AE928A9A8343308225B38418 /* Build configuration list for PBXNativeTarget "Pods-VirtualAssistantExample" */;
 			buildPhases = (
-				330A3D714A710B8FA27F67A83F15DE26 /* Headers */,
-				C17A7E61E5575067713DD46210F87FCC /* Sources */,
-				49E54E2998412D092A145D7986785BD5 /* Frameworks */,
-				2FECCB87A4406DCD5BAC1F295DD87826 /* Resources */,
+				8060E0EA4A72FF3AB5CEAB66098B0ADF /* Headers */,
+				E9C8BDDBAD9076939C4C92D803825615 /* Sources */,
+				0A0E6B592DA9F1EDC01D372FFCE52665 /* Frameworks */,
+				EB068617EF2756B2DD95BC6CB7D6A497 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6FEE027656FF576921538CE6D78726B4 /* PBXTargetDependency */,
+				18343E330B84E8D2704E3C7AD0B114E4 /* PBXTargetDependency */,
+				E698A505230E290849459E751EB7F752 /* PBXTargetDependency */,
+				AC98BD19FDA972CE6BDED2AD724BDFCF /* PBXTargetDependency */,
+				82DD4E5AF43A06CB03DDA22148C3BEF3 /* PBXTargetDependency */,
+				C1D4D5D9F905755BA101055A346D4EF5 /* PBXTargetDependency */,
+				CE6EFEC7B5333D1B1BE5ED249A194778 /* PBXTargetDependency */,
+				215732BEA888587789227C0E0B20D103 /* PBXTargetDependency */,
 			);
 			name = "Pods-VirtualAssistantExample";
 			productName = Pods_VirtualAssistantExample;
@@ -2751,13 +2817,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		0DD9B43B028ADBE10608D8370245EB84 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FECCB87A4406DCD5BAC1F295DD87826 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2831,6 +2890,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DC14DBA49C9E6460A19A6CA3F54CC687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB068617EF2756B2DD95BC6CB7D6A497 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3161,19 +3227,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C17A7E61E5575067713DD46210F87FCC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE264ACF0A806A6D3268788C5E433D53 /* Pods-VirtualAssistantExample-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E7343F3958694B021A853045ADF6E512 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				57B329612F3E5815ED3C4C5CA2B0F3D5 /* Pods-VirtualAssistant-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C8BDDBAD9076939C4C92D803825615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB9F81FF8FBD2E3F76F864203757FE1 /* Pods-VirtualAssistantExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3192,11 +3258,23 @@
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
 			targetProxy = 5103D6F79A7BC20100C776A1A0363670 /* PBXContainerItemProxy */;
 		};
+		18343E330B84E8D2704E3C7AD0B114E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
+			targetProxy = 2436C4DE4F12C6339FEA3E31F305C6C9 /* PBXContainerItemProxy */;
+		};
 		185251943A643BC93C4D5C2340D2BCDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
 			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
 			targetProxy = D908B0F68AC774BDB829E4B32986E434 /* PBXContainerItemProxy */;
+		};
+		215732BEA888587789227C0E0B20D103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libidn;
+			target = A0FF6D82399DADCB1B9E53ACCAB13A50 /* libidn */;
+			targetProxy = DDCA5CFF43116B4D6847F070A7FDFEA4 /* PBXContainerItemProxy */;
 		};
 		3A6132F7EEF5CE702DC6B61FA572A0A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3222,11 +3300,29 @@
 			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
 			targetProxy = 456AAADFC8EA53A1AFBEA47E0F608D63 /* PBXContainerItemProxy */;
 		};
+		6FEE027656FF576921538CE6D78726B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = E8C6310E561F19DE01FC07D6B4E49792 /* PBXContainerItemProxy */;
+		};
 		7D6048C24E2E8A5F7AC29CD8FD12C6E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AlamofireImage;
 			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
 			targetProxy = A0697D4936C46461E69E35F7017C3B40 /* PBXContainerItemProxy */;
+		};
+		82DD4E5AF43A06CB03DDA22148C3BEF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KissXML;
+			target = 5E29B9B6C65A7F7B0A531D16330B38F1 /* KissXML */;
+			targetProxy = 0CF5394F17415DFE960876C929D7D003 /* PBXContainerItemProxy */;
+		};
+		AC98BD19FDA972CE6BDED2AD724BDFCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = A4770BC8EE3A517A20DA74B2627FB5DC /* PBXContainerItemProxy */;
 		};
 		B5341563D9217825B10536F5AEEDF2DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3251,6 +3347,12 @@
 			name = AlamofireImage;
 			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
 			targetProxy = 15ACCD05EA6C3A3084A32F3B50EA0949 /* PBXContainerItemProxy */;
+		};
+		C1D4D5D9F905755BA101055A346D4EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = F86A74C8D6E395C783CF52767E52B195 /* PBXContainerItemProxy */;
 		};
 		C25B040C644089D6B3FDCBEB537B1271 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3282,6 +3384,12 @@
 			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
 			targetProxy = 028C2EBD1780B56DC5B349B625251B9C /* PBXContainerItemProxy */;
 		};
+		CE6EFEC7B5333D1B1BE5ED249A194778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMPPFramework;
+			target = 77A3D42C87C7E2E6588C87CF453322DE /* XMPPFramework */;
+			targetProxy = E498EBB0D8A6239DD8BE2A5BC108693F /* PBXContainerItemProxy */;
+		};
 		DD076070955EBC3300E8AAAF19EFF488 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaLumberjack;
@@ -3299,6 +3407,12 @@
 			name = CocoaLumberjack;
 			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
 			targetProxy = 5EE60E53F247948B7B4D44B792C6B3E1 /* PBXContainerItemProxy */;
+		};
+		E698A505230E290849459E751EB7F752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 176BDA3064A04F8E4585B23F39377629 /* PBXContainerItemProxy */;
 		};
 		FAE370E9226AE106D66F2F78D6EFB64B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3350,6 +3464,43 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		08D1A2E8278C6B6419BEE99AAC075E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30E21041CB6FE22E9E18249EABCE11F /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		3FED7E1E54322A553547D7E37DF63F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3421,9 +3572,9 @@
 			};
 			name = Release;
 		};
-		500FBD46F6F47CE27A7D64BB2B8FF971 /* Release */ = {
+		4BC91A4C3C04FAB03D0FF4D8A85D9C04 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4726919C1825D6C1FA6169CF961F507A /* Pods-VirtualAssistantExampleTests.release.xcconfig */;
+			baseConfigurationReference = AFDF46155A86F7FE91AD41906E283D74 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3435,16 +3586,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExampleTests/Pods-VirtualAssistantExampleTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExampleTests/Pods-VirtualAssistantExampleTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -3495,7 +3646,7 @@
 		};
 		5A574A6A4EFC0E4FD9D88B99B5AB949C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D44A77F17583EA9BD2F3F0BB2853266A /* Pods-VirtualAssistant-VirtualAssistantTests.release.xcconfig */;
+			baseConfigurationReference = 7090AF46E1001B44F5355A00223EAD74 /* Pods-VirtualAssistant-VirtualAssistantTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3517,81 +3668,6 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistant-VirtualAssistantTests/Pods-VirtualAssistant-VirtualAssistantTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5DF5540A397E629655D50125F1C5A564 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABDAE25C5B3F8D37B9AFC5FDD43C0EF9 /* Pods-VirtualAssistantExample.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExample/Pods-VirtualAssistantExample-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExample/Pods-VirtualAssistantExample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		66FB0DCB31982A4AF471A9E0F09BDDA6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E6C7585795955B6089E53DDC2DBFDBA /* Pods-VirtualAssistantExample.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExample/Pods-VirtualAssistantExample-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExample/Pods-VirtualAssistantExample.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -3674,44 +3750,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		79A1D2C5456B2AB3C58F970593CB206C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5F860D7A28C18FFA44E25269F20A158 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		79FDB89F6CA57D6734D528EAF266BD7B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3851,7 +3889,7 @@
 		};
 		8E4969F74A0509DC3FF703E08A5AEE3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7396E58AECE3E8362DC1B3083132C67 /* Pods-VirtualAssistant.release.xcconfig */;
+			baseConfigurationReference = DB136CE1FF026702083BF193BA1B31A0 /* Pods-VirtualAssistant.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4021,7 +4059,7 @@
 		};
 		A9CD2EDB1CECF8EF119FB6B1F7CBC433 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A74E3C2540220798526AEA8DC6A10CE /* Pods-VirtualAssistant-VirtualAssistantTests.debug.xcconfig */;
+			baseConfigurationReference = 053105E480DB00252609B9E9FCDC8667 /* Pods-VirtualAssistant-VirtualAssistantTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4056,9 +4094,9 @@
 			};
 			name = Debug;
 		};
-		ADEC5A4827FB413CEDA8710433513E04 /* Debug */ = {
+		AD27350804F8A29988EBAD8759C65BDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F257EBEFE26C2B9AAB44414EBB013DB9 /* Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.debug.xcconfig */;
+			baseConfigurationReference = FDAD05A29FA90900E7E65B78795CA693 /* Pods-VirtualAssistantExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4070,16 +4108,129 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExampleTests/Pods-VirtualAssistantExampleTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests/Pods-VirtualAssistantExample-VirtualAssistantExampleUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExampleTests/Pods-VirtualAssistantExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE98792C780A8FAA1A70CAFE1CC1E970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1470888078568A0974706E88E741D334 /* Pods-VirtualAssistantExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExample/Pods-VirtualAssistantExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExample/Pods-VirtualAssistantExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B47177A4D5E5ED76B6E0DB28D0A98A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27E9857EFA8FEE5039EF5A563613E27 /* Pods-VirtualAssistantExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExample/Pods-VirtualAssistantExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExample/Pods-VirtualAssistantExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA8198B5850DBC3D2005DBB54896A83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B41AAC3E46688034FF32656DAD24C2 /* Pods-VirtualAssistantExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExampleTests/Pods-VirtualAssistantExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExampleTests/Pods-VirtualAssistantExampleTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -4197,43 +4348,6 @@
 			};
 			name = Debug;
 		};
-		D37014C97D3DD045006FACC3EC59289D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C554AC1BECBBC3CA250233F3BC9C9677 /* Pods-VirtualAssistantExampleTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VirtualAssistantExampleTests/Pods-VirtualAssistantExampleTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VirtualAssistantExampleTests/Pods-VirtualAssistantExampleTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D401A4FC6F957FDE64D89E326F2CB910 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8C91A158CB53FA74FF5C3540B0EEF43B /* XMPPFramework.debug.xcconfig */;
@@ -4270,7 +4384,7 @@
 		};
 		DA62948A483EDB2158EC26D262FBA42D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B98C4818191FD47038C2A593A86E8D66 /* Pods-VirtualAssistant.debug.xcconfig */;
+			baseConfigurationReference = 91DF0C939A47AC607AC8809576E360E2 /* Pods-VirtualAssistant.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4452,8 +4566,8 @@
 		6227D8B09B6D00951A6852173C505F73 /* Build configuration list for PBXNativeTarget "Pods-VirtualAssistantExample-VirtualAssistantExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADEC5A4827FB413CEDA8710433513E04 /* Debug */,
-				79A1D2C5456B2AB3C58F970593CB206C /* Release */,
+				08D1A2E8278C6B6419BEE99AAC075E44 /* Debug */,
+				4BC91A4C3C04FAB03D0FF4D8A85D9C04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4461,17 +4575,8 @@
 		6549C2435120419F9242841C3DA6CB3E /* Build configuration list for PBXNativeTarget "Pods-VirtualAssistantExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D37014C97D3DD045006FACC3EC59289D /* Debug */,
-				500FBD46F6F47CE27A7D64BB2B8FF971 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7E3E250F3419726FFD44C4161B95CAAE /* Build configuration list for PBXNativeTarget "Pods-VirtualAssistantExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5DF5540A397E629655D50125F1C5A564 /* Debug */,
-				66FB0DCB31982A4AF471A9E0F09BDDA6 /* Release */,
+				BA8198B5850DBC3D2005DBB54896A83C /* Debug */,
+				AD27350804F8A29988EBAD8759C65BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4499,6 +4604,15 @@
 			buildConfigurations = (
 				88E73531C68FEC995B656F125B9BD903 /* Debug */,
 				9DD09D0D00249C022E2A3426A4917732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE07F68AE928A9A8343308225B38418 /* Build configuration list for PBXNativeTarget "Pods-VirtualAssistantExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE98792C780A8FAA1A70CAFE1CC1E970 /* Debug */,
+				B47177A4D5E5ED76B6E0DB28D0A98A42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
