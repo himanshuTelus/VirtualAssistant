@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "VirtualAssistant"
-  spec.version      = "0.1.3"
+  spec.version      = "0.1.4"
   spec.summary      = "A short description of VirtualAssistant."
 
   # This description is used to generate tags and improve search results.
@@ -136,5 +136,15 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+
+  spec.framework = "UIKit"
+  spec.dependency 'CocoaAsyncSocket', '~> 7.6.5'
+  spec.dependency 'CocoaLumberjack', '~> 3.7.0'
+  spec.dependency 'KissXML', '~> 5.3.1'
+  spec.dependency 'libidn', '~> 1.35'
+  spec.dependency 'XMPPFramework', '~> 4.0.0'
+  spec.dependency 'MBProgressHUD', '~> 1.2.0'
+  spec.dependency 'Alamofire'
+  spec.dependency 'AlamofireImage'
 
 end
