@@ -60,7 +60,7 @@ class CollectionViewCell: UICollectionViewCell {
         
         self.titleLbl.text = carouselObj.text
           print("self.titleLbl.text ====== \(self.titleLbl.text)")
-        self.imgView.image = UIImage(named: "Image")!
+        self.imgView.image = UIImage(named: "Image", in: Bundle(for: CollectionViewCell.self), with: nil)!
 
         if carouselObj.image != nil && carouselObj.image != ""{
         downloadImage(from: URL(string: carouselObj.image)!)

@@ -1,0 +1,6 @@
+framework module Pods_VirtualAssistant_VirtualAssistantTests {
+  umbrella header "Pods-VirtualAssistant-VirtualAssistantTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

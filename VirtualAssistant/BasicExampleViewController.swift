@@ -31,14 +31,24 @@ import AlamofireImage
 
 final class BasicExampleViewController: ChatViewController {
     
+   
+
+    
     var alrController:UIAlertController?
     var choices:[Choice]?
+    
     var suggestions:[Suggestion]?
     var circularProgress:ProgressBarView?
+    
     let defaultPlaceholder = "Ask me something"
     let feedbackPlaceholder = "Want to share feedback?"
     var hud:MBProgressHUD?
     
+
+  
+   
+
+  
     override func configureMessageCollectionView() {
         super.configureMessageCollectionView()
         messagesCollectionView.messagesLayoutDelegate = self
@@ -56,18 +66,19 @@ final class BasicExampleViewController: ChatViewController {
         messagesCollectionView.register(UINib(nibName: "MultiOpsCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "MultiOpsCollectionViewCell")
         messagesCollectionView.register(UINib(nibName: "BottomCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "BottomCollectionViewCell")
         
+            
         
-        NotificationCenter.default.addObserver(self, selector: #selector(self.methodOfReceivedNotification(notification:)), name: Notification.Name("NotificationIdentifier"), object: nil)
+         NotificationCenter.default.addObserver(self, selector: #selector(self.methodOfReceivedNotification(notification:)), name: Notification.Name("NotificationIdentifier"), object: nil)
         
-        NotificationCenter.default.addObserver(self, selector: #selector(self.carauselOptionButtonTapped(notification:)), name: Notification.Name("CarauselOptionButtonTapped"), object: nil)
-        
+         NotificationCenter.default.addObserver(self, selector: #selector(self.carauselOptionButtonTapped(notification:)), name: Notification.Name("CarauselOptionButtonTapped"), object: nil)
+
         let center = NotificationCenter.default
         center.addObserver(self, selector: #selector(keyboardWillBeShown(note:)), name:UIResponder.keyboardWillShowNotification, object: nil)
         center.addObserver(self, selector: #selector(keyboardWillBeHidden(note:)), name: UIResponder.keyboardWillHideNotification, object: nil)
         
         
         super.viewDidLoad()
-        // updateTitleView(title: "MessageKit", subtitle: "2 Online")
+       // updateTitleView(title: "MessageKit", subtitle: "2 Online")
         self.hud = MBProgressHUD.showAdded(to: self.view, animated: true)
         self.callAPI()
         
@@ -76,32 +87,35 @@ final class BasicExampleViewController: ChatViewController {
         //self.suggestionTable.roundCorners(corners: [.topRight, .topLeft], radius: 10)
         self.view.bringSubviewToFront(suggestionTable)
         messageInputBar.inputTextView.delegate = self
+
         
     }
     
     
     override func viewWillAppear(_ animated: Bool) {
         self.configureMessageInputBar()
-    }
+     }
     
-    override func setMessageInputBarOnMessageGet() {
-        self.showReset()
-    }
+   override func setMessageInputBarOnMessageGet() {
+    self.showReset()
+       }
     
-    override func showFeedbackInputTextBar()  {
-        setCrossButton()
-        showCross()
-    }
+   override func showFeedbackInputTextBar()  {
+    setCrossButton()
+    showCross()
+       }
     
     override func hideFeedbackInputTextBar()  {
-        //  setCrossButton()
-        hideCross()
-    }
+     //  setCrossButton()
+       hideCross()
+          }
     
-    func configureMessageInputBar() {
-        //        super.configureMessageInputBar()
+    
+    
+     func configureMessageInputBar() {
+//        super.configureMessageInputBar()
         messageInputBar.delegate = self
-        //   messageInputBar.heightAnchor.constraint(equalToConstant: 60).isActive = true
+     //   messageInputBar.heightAnchor.constraint(equalToConstant: 60).isActive = true
         messageInputBar.isTranslucent = true
         messageInputBar.separatorLine.isHidden = true
         messageInputBar.inputTextView.tintColor = .primaryColor
@@ -129,10 +143,12 @@ final class BasicExampleViewController: ChatViewController {
         setResetButton()
         manageResetButton()
         hideCross()
+       
     }
     
     func setCircularProgress() {
-        //  print(self.integration?.settings?.widget_textcolour)
+        
+      //  print(self.integration?.settings?.widget_textcolour)
         circularProgress =  ProgressBarView(frame: messageInputBar.sendButton.bounds)
         circularProgress!.trackClr = UIColor.lightGray
         circularProgress!.progressClr = self.integration?.settings?.widget_textcolour?.hexToUIColor ?? .green
@@ -143,36 +159,37 @@ final class BasicExampleViewController: ChatViewController {
     func setSendButton() {
         messageInputBar.setRightStackViewWidthConstant(to: 36, animated: false)
         messageInputBar.sendButton.imageView?.backgroundColor = UIColor.clear
-        messageInputBar.sendButton.contentEdgeInsets = UIEdgeInsets(top: 2, left: 5, bottom: 2, right: 0)
-        messageInputBar.sendButton.setSize(CGSize(width: 36, height: 36), animated: false)
-        messageInputBar.sendButton.setTintedImage = UIImage(named: "Send")
-        messageInputBar.sendButton.title = nil
-        messageInputBar.sendButton.isEnabled = true
-        messageInputBar.sendButton.tintColor = UIColor.lightGray
-        messageInputBar.sendButton.addSubview(circularProgress!)
-        
-        messageInputBar.sendButton
-            .onEnabled { item in
-                UIView.animate(withDuration: 0.3, animations: {
-                })
-            }.onDisabled { item in
-                UIView.animate(withDuration: 0.3, animations: {
-                })
-            }.onTextViewDidChange { (item, textView) in
-                let value = Float(textView.text.count)
-                guard let maxCount = self.maxCharCount else{
-                    return
-                }
-                let isOverLimit = textView.text.count > maxCount
-                if isOverLimit {
-                    //item.messageInputBar?.sendButton.isEnabled = false
-                }
-                else{
-                    // item.messageInputBar?.sendButton.isEnabled = true
-                    self.circularProgress?.progress = (value)/Float(maxCount)
-                    item.messageInputBar?.sendButton.tintColor = self.integration?.settings?.widget_textcolour?.hexToUIColor ?? .green
-                }
-            }
+               messageInputBar.sendButton.contentEdgeInsets = UIEdgeInsets(top: 2, left: 5, bottom: 2, right: 0)
+               messageInputBar.sendButton.setSize(CGSize(width: 36, height: 36), animated: false)
+               messageInputBar.sendButton.setTintedImage = UIImage(named: "Send")
+               messageInputBar.sendButton.title = nil
+               messageInputBar.sendButton.isEnabled = true
+               messageInputBar.sendButton.tintColor = UIColor.lightGray
+               messageInputBar.sendButton.addSubview(circularProgress!)
+             
+               messageInputBar.sendButton
+                   .onEnabled { item in
+                       UIView.animate(withDuration: 0.3, animations: {
+                       })
+                   }.onDisabled { item in
+                       UIView.animate(withDuration: 0.3, animations: {
+                       })
+               }.onTextViewDidChange { (item, textView) in
+                       let value = Float(textView.text.count)
+                   guard let maxCount = self.maxCharCount else{
+                       return
+                   }
+                       let isOverLimit = textView.text.count > maxCount
+                       if isOverLimit {
+                           //item.messageInputBar?.sendButton.isEnabled = false
+                       }
+                       else{
+                          // item.messageInputBar?.sendButton.isEnabled = true
+                           self.circularProgress?.progress = (value)/Float(maxCount)
+                           item.messageInputBar?.sendButton.tintColor = self.integration?.settings?.widget_textcolour?.hexToUIColor ?? .green
+
+                   }
+               }
     }
     
     func setResetButton() {
@@ -180,69 +197,75 @@ final class BasicExampleViewController: ChatViewController {
         messageInputBar.refreshButton.setTintedImage = UIImage(named: "user3")
         messageInputBar.refreshButton.isEnabled = true
         messageInputBar.refreshButton.tintColor = self.integration?.settings?.widget_textcolour?.hexToUIColor ?? .green
-        
-        messageInputBar.refreshButton
-            .onTouchUpInside { (item) in
-                self.hideReset()
-                self.isResetTapped = true
-            }
+              
+               messageInputBar.refreshButton
+                   .onTouchUpInside { (item) in
+                    self.hideReset()
+                    self.isResetTapped = true
+               }
     }
     
-    
+   
     
     func manageResetButton()  {
-        //  print(config?.reset_context)
+      //  print(config?.reset_context)
         if (config?.reset_context ?? false){
-            showReset()
-        }
-        else{
-            hideReset()
-        }
+                  showReset()
+               }
+               else{
+             hideReset()
+               }
     }
     
     func showReset() {
         messageInputBar.setLeftStackViewWidthConstant(to: 36, animated: false)
         // messageInputBar.setRightStackViewWidthConstant(to: 74, animated: false)
-        messageInputBar.refreshButton.isHidden = false
+         messageInputBar.refreshButton.isHidden = false
         messageInputBar.crossButton.isHidden = true
         
     }
     
     func hideReset() {
-        messageInputBar.setLeftStackViewWidthConstant(to: 0, animated: false)
-        // messageInputBar.setRightStackViewWidthConstant(to: 36, animated: false)
-        messageInputBar.refreshButton.isHidden = true
-        messageInputBar.crossButton.isHidden = true
+          messageInputBar.setLeftStackViewWidthConstant(to: 0, animated: false)
+         // messageInputBar.setRightStackViewWidthConstant(to: 36, animated: false)
+          messageInputBar.refreshButton.isHidden = true
+          messageInputBar.crossButton.isHidden = true
+
+    
     }
     
     
     func setCrossButton() {
-        messageInputBar.crossButton.setSize(CGSize(width: 36, height: 36), animated: false)
-        messageInputBar.crossButton.isEnabled = true
-        messageInputBar.crossButton.tintColor = UIColor.init(hexString: self.integration?.settings?.widget_textcolour ?? "#808080")
-        
-        messageInputBar.crossButton
-            .onTouchUpInside { (item) in
-                self.hideCross()
-            }
-    }
-    
-    func showCross() {
-        messageInputBar.inputTextView.placeholder = feedbackPlaceholder
-        messageInputBar.setLeftStackViewWidthConstant(to: 36, animated: false)
-        messageInputBar.crossButton.isHidden = false
-        messageInputBar.refreshButton.isHidden = true
-        isFeedback = true
-    }
-    
-    func hideCross() {
-        messageInputBar.inputTextView.placeholder = defaultPlaceholder
-        // messageInputBar.setRightStackViewWidthConstant(to: 36, animated: false)
-        // messageInputBar.setLeftStackViewWidthConstant(to: 0, animated: false)
-        messageInputBar.crossButton.isHidden = true
-        manageResetButton()
-        isFeedback = false
-    }
+           messageInputBar.crossButton.setSize(CGSize(width: 36, height: 36), animated: false)
+           messageInputBar.crossButton.isEnabled = true
+           messageInputBar.crossButton.tintColor = UIColor.init(hexString: self.integration?.settings?.widget_textcolour ?? "#808080")
+                 
+                  messageInputBar.crossButton
+                      .onTouchUpInside { (item) in
+                       self.hideCross()
+                  }
+       }
+                 
+          func showCross() {
+               messageInputBar.inputTextView.placeholder = feedbackPlaceholder
+               messageInputBar.setLeftStackViewWidthConstant(to: 36, animated: false)
+               messageInputBar.crossButton.isHidden = false
+               messageInputBar.refreshButton.isHidden = true
+               isFeedback = true
+
+          }
+          
+          func hideCross() {
+                messageInputBar.inputTextView.placeholder = defaultPlaceholder
+               // messageInputBar.setRightStackViewWidthConstant(to: 36, animated: false)
+           // messageInputBar.setLeftStackViewWidthConstant(to: 0, animated: false)
+                messageInputBar.crossButton.isHidden = true
+                manageResetButton()
+                isFeedback = false
+
+          
+          }
+       
     
     private func makeButton(named: String) -> InputBarButtonItem {
         return InputBarButtonItem()
@@ -256,35 +279,43 @@ final class BasicExampleViewController: ChatViewController {
             }.onDeselected {
                 $0.tintColor = UIColor(white: 0.8, alpha: 1)
             }.onTouchUpInside { _ in
-                //  print("Item Tapped")
-            }
+              //  print("Item Tapped")
+        }
     }
+    
     
     @objc func carauselOptionButtonTapped(notification: Notification) {
         let option =  notification.object as! Option
         self.sendDataToServer(data: option.data)
         let message = MockMessage(text: option.data, sender: currentSender(), messageId: UUID().uuidString, date: Date())
-        insertMessage(message)
-        messagesCollectionView.scrollToBottom(animated: true)
-    }
+               insertMessage(message)
+               messagesCollectionView.scrollToBottom(animated: true)
+          }
+    
     
     @objc func methodOfReceivedNotification(notification: Notification) {
-        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let storyboard: UIStoryboard = UIStoryboard(name: "VirtualAssistantMain", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "ImageViewController") as! ImageViewController
         vc.image = notification.object as? UIImage
         self.present(vc, animated: true, completion: nil)
-        print("Value of notification : ", notification.object ?? "")
-    }
+           print("Value of notification : ", notification.object ?? "")
+       }
     
     func addNavTitleImage()  {
-        let navHeight = self.navigationController!.navigationBar.frame.size.height - 30
-        let navWidth = self.navigationController!.navigationBar.frame.size.width - 50
-        navTitleImgView = UIImageView(frame: CGRect(x: 0, y: 0, width: navWidth, height: navHeight))
+        
+        let storyboard = UIStoryboard(name: "VirtualAssistantMain", bundle: Bundle(for: BasicExampleViewController.self))
+
+
+        let nav = storyboard.instantiateViewController(withIdentifier: "NavigationController") as! NavigationController
+        
+        let navHeight = nav.navigationBar.frame.size.height - 30
+        let navWidth = nav.navigationBar.frame.size.width - 50
+         navTitleImgView = UIImageView(frame: CGRect(x: 0, y: 0, width: navWidth, height: navHeight))
         navTitleImgView?.contentMode = .scaleAspectFit
         if self.config?.header_logo?.isEmpty ?? true{
             navTitleImgView?.image = self.NavTitleImg}else{
-                navTitleImgView?.af_setImage(withURL: URL(string: self.config?.header_logo ?? "")!)
-            }
+            navTitleImgView?.af_setImage(withURL: URL(string: self.config?.header_logo ?? "")!)
+        }
         navigationItem.titleView = navTitleImgView
     }
     
@@ -293,12 +324,13 @@ final class BasicExampleViewController: ChatViewController {
     }
     
     func getSenderImage()-> UIImage {
-        return UIImage(named: "user1")!
+        return UIImage(named: "user1", in: Bundle(for: BasicExampleViewController.self), with: nil)!
     }
     
+    
     func callAPI() {
-        APIManager.sharedInstance.getConfiguration(url: "", successBlock: { (data) in
-            //    print(data)
+         APIManager.sharedInstance.getConfiguration(url: "", successBlock: { (data) in
+                  //    print(data)
             if let configData = data{
                 self.config = configData.result
                 self.integration = configData.result?.integration![0]
@@ -314,53 +346,58 @@ final class BasicExampleViewController: ChatViewController {
                     self.hud?.hide(animated: true)
                 }
             }
-        }) { (error) in
-            DispatchQueue.main.async {
-                self.hud?.hide(animated: true)
-                print("error Configuration ======= \(error)")
-            }
-        }
+                  }) { (error) in
+                    DispatchQueue.main.async {
+                        self.hud?.hide(animated: true)
+                        print("error Configuration ======= \(error)")
+                    }
+                      
+                  }
     }
     
     func getConfigImage()  {
         ImageDownloadManager().loadImage(imageURL: (self.config?.avatar)!) {[weak self] (taskURL, downloadedImage) in
-            if let img = downloadedImage {
-                DispatchQueue.main.async {
-                    self!.responderImg = img
-                }
-            }
-            else{
-                self!.responderImg = UIImage(named: "user1")!
+                        if let img = downloadedImage {
+                            DispatchQueue.main.async {
+                                self!.responderImg = img
+                            }
+                        }
+                        else{
+                            self!.responderImg = UIImage(named: "user1")!
             }
         }
     }
     
     @objc func callSuggestionsAPI(txt:String) {
+        
         APIManager.sharedInstance.getSuggestion(text: txt, contextId: self.messageData?.context_id ?? 0, successBlock: { (data) in
-            //   print(data)
-            
-            if let configData = data{
-                self.suggestions = configData
-                DispatchQueue.main.async { // Correct
+                   //   print(data)
+
+                if let configData = data{
+                    self.suggestions = configData
+                    DispatchQueue.main.async { // Correct
                     self.suggestionTable.reloadData()
                     self.suggestionTable.isHidden = false
                 }
             }
-        }) { (error) in
-            print(error)
-            DispatchQueue.main.async {
-                self.suggestionTable.isHidden = true
-            }
-        }
+            }) { (error) in
+                      print(error)
+
+                    DispatchQueue.main.async {
+                        self.suggestionTable.isHidden = true
+                    }
+                }
     }
     
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        //        if !self.logInPresented {
-        //            self.logInPresented = true
-        //            self.performSegue(withIdentifier: "LogInViewController", sender: nil)
-        //        }
+
+//        if !self.logInPresented {
+//            self.logInPresented = true
+//            self.performSegue(withIdentifier: "LogInViewController", sender: nil)
+//        }
+
     }
     
     override func loadFirstMessages() {
@@ -374,7 +411,7 @@ final class BasicExampleViewController: ChatViewController {
     }
     
     // MARK: - Custom feedback
-    
+   
     @IBAction func crossAction(_ sender: Any) {
         if config?.nps_settings?.custom_theme ?? false{
             self.moveToCustomeFeedback()
@@ -384,19 +421,19 @@ final class BasicExampleViewController: ChatViewController {
     }
     
     func moveToCustomeFeedback()  {
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let feedbackSurveyVC = storyBoard.instantiateViewController(withIdentifier: "FeedbackSurveyVC") as! FeedbackSurveyVC
+          let storyBoard : UIStoryboard = UIStoryboard(name: "VirtualAssistantMain", bundle:nil)
+                let feedbackSurveyVC = storyBoard.instantiateViewController(withIdentifier: "FeedbackSurveyVC") as! FeedbackSurveyVC
         feedbackSurveyVC.npsSettings = self.config?.nps_settings
         feedbackSurveyVC.NavTitleImg = self.navTitleImgView!.image!
-        self.navigationController?.pushViewController(feedbackSurveyVC, animated: false)
+                self.navigationController?.pushViewController(feedbackSurveyVC, animated: false)
     }
     
     func moveToNormalFeedback()  {
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let normalFeedbackVC = storyBoard.instantiateViewController(withIdentifier: "NormalFeedbackVC") as! NormalFeedbackVC
+          let storyBoard : UIStoryboard = UIStoryboard(name: "VirtualAssistantMain", bundle:nil)
+                let normalFeedbackVC = storyBoard.instantiateViewController(withIdentifier: "NormalFeedbackVC") as! NormalFeedbackVC
         normalFeedbackVC.NavTitleImg = self.navTitleImgView!.image!
-        
-        self.navigationController?.pushViewController(normalFeedbackVC, animated: false)
+
+                self.navigationController?.pushViewController(normalFeedbackVC, animated: false)
     }
     
     
@@ -405,55 +442,55 @@ final class BasicExampleViewController: ChatViewController {
     
     public override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        guard let messagesDataSource = messagesCollectionView.messagesDataSource else {
-            fatalError("Ouch. nil data source for messages")
-        }
-        let message = messagesDataSource.messageForItem(at: indexPath, in: messagesCollectionView)
+    guard let messagesDataSource = messagesCollectionView.messagesDataSource else {
+    fatalError("Ouch. nil data source for messages")
+    }
+    let message = messagesDataSource.messageForItem(at: indexPath, in: messagesCollectionView)
+
+    if case .quickReplyButton = message.kind {
+    let cell = messagesCollectionView.dequeueReusableCell(QuickReplyButtonCollectionViewCell.self, for: indexPath)
+    self.quickReplyIndexPath.append(indexPath)
+        print("self.quickReplyIndexPath.count ========   \(self.quickReplyIndexPath.count)")
+    cell.delegate = self
+    cell.configure(with: self.messageList, at: indexPath, and: messagesCollectionView, with: (self.integration?.settings)!)
+    return cell
+    }
         
-        if case .quickReplyButton = message.kind {
-            let cell = messagesCollectionView.dequeueReusableCell(QuickReplyButtonCollectionViewCell.self, for: indexPath)
-            self.quickReplyIndexPath.append(indexPath)
-            print("self.quickReplyIndexPath.count ========   \(self.quickReplyIndexPath.count)")
-            cell.delegate = self
-            cell.configure(with: self.messageList, at: indexPath, and: messagesCollectionView, with: (self.integration?.settings)!)
-            return cell
-        }
+    else if case .quickReplySSO = message.kind {
+    let cell = messagesCollectionView.dequeueReusableCell(QuickReplySSOCollectionViewCell.self, for: indexPath)
+    cell.delegate = self
+    cell.configure(with: self.messageList, at: indexPath, and: messagesCollectionView, with: (self.config)!)
+    return cell
+    }
         
-        else if case .quickReplySSO = message.kind {
-            let cell = messagesCollectionView.dequeueReusableCell(QuickReplySSOCollectionViewCell.self, for: indexPath)
-            cell.delegate = self
-            cell.configure(with: self.messageList, at: indexPath, and: messagesCollectionView, with: (self.config)!)
-            return cell
-        }
+    else if case .carousel = message.kind {
+    let cell = messagesCollectionView.dequeueReusableCell(CarouselCollectionViewCell.self, for: indexPath)
+    cell.configure(with: self.messageList, at: indexPath, and: messagesCollectionView, with: (self.integration?.settings)!)
+    return cell
+    }
         
-        else if case .carousel = message.kind {
-            let cell = messagesCollectionView.dequeueReusableCell(CarouselCollectionViewCell.self, for: indexPath)
-            cell.configure(with: self.messageList, at: indexPath, and: messagesCollectionView, with: (self.integration?.settings)!)
-            return cell
-        }
-        
-        else if case .prop = message.kind {
-            let cell = messagesCollectionView.dequeueReusableCell(PropsCollectionViewCell.self, for: indexPath)
-            cell.delegate = self
-            cell.configure(with: self.messageList, at: indexPath, and: messagesCollectionView, with: (self.integration?.settings)!)
-            return cell
-        }
-        
-        else if case .multiOps = message.kind {
-            let cell = messagesCollectionView.dequeueReusableCell(MultiOpsCollectionViewCell.self, for: indexPath)
-            cell.delegate = self
-            cell.configure(with: self.messageList, at: indexPath, and: messagesCollectionView, with: (self.integration?.settings)!)
-            return cell
-        }
-        
-        else if case .bottom = message.kind {
-            let cell = messagesCollectionView.dequeueReusableCell(BottomCollectionViewCell.self, for: indexPath)
-            cell.configCell(isFeedback: self.messageData?.feedback?["text_feedback"] ?? false)
-            cell.delegate = self
-            return cell
-        }
-        
-        return super.collectionView(collectionView, cellForItemAt: indexPath)
+    else if case .prop = message.kind {
+    let cell = messagesCollectionView.dequeueReusableCell(PropsCollectionViewCell.self, for: indexPath)
+    cell.delegate = self
+    cell.configure(with: self.messageList, at: indexPath, and: messagesCollectionView, with: (self.integration?.settings)!)
+    return cell
+    }
+
+    else if case .multiOps = message.kind {
+    let cell = messagesCollectionView.dequeueReusableCell(MultiOpsCollectionViewCell.self, for: indexPath)
+    cell.delegate = self
+    cell.configure(with: self.messageList, at: indexPath, and: messagesCollectionView, with: (self.integration?.settings)!)
+    return cell
+    }
+
+    else if case .bottom = message.kind {
+    let cell = messagesCollectionView.dequeueReusableCell(BottomCollectionViewCell.self, for: indexPath)
+    cell.configCell(isFeedback: self.messageData?.feedback?["text_feedback"] ?? false)
+    cell.delegate = self
+    return cell
+    }
+
+    return super.collectionView(collectionView, cellForItemAt: indexPath)
     }
     
     
@@ -462,73 +499,76 @@ final class BasicExampleViewController: ChatViewController {
         print("You selected cell #\(indexPath.item)!")
     }
     
-    @IBAction func menuBtnClicked(_ sender: Any) {
-        if let button = sender as? UIBarButtonItem {
-            let popoverContentController = self.storyboard!.instantiateViewController(withIdentifier: "SettingPopoverViewController") as! SettingPopoverViewController
-            popoverContentController.modalPresentationStyle = .popover
-            popoverContentController.preferredContentSize = CGSize(width: 230, height: 81)
-            popoverContentController.delegate = self
-            
-            if let popoverPresentationController = popoverContentController.popoverPresentationController {
-                popoverPresentationController.permittedArrowDirections = .up
-                popoverPresentationController.backgroundColor = UIColor.black.withAlphaComponent(0.65)
-                popoverPresentationController.sourceView = self.view
-                popoverPresentationController.barButtonItem = button
-                popoverPresentationController.delegate = self
+        @IBAction func menuBtnClicked(_ sender: Any) {
+            if let button = sender as? UIBarButtonItem {
+                let storyboard: UIStoryboard = UIStoryboard(name: "VirtualAssistantMain", bundle: nil)
+
+                let popoverContentController = storyboard.instantiateViewController(withIdentifier: "SettingPopoverViewController") as! SettingPopoverViewController
+                popoverContentController.modalPresentationStyle = .popover
+                popoverContentController.preferredContentSize = CGSize(width: 230, height: 81)
+                popoverContentController.delegate = self
                 
-                present(popoverContentController, animated: true, completion: nil)
+                if let popoverPresentationController = popoverContentController.popoverPresentationController {
+                       popoverPresentationController.permittedArrowDirections = .up
+                       popoverPresentationController.backgroundColor = UIColor.black.withAlphaComponent(0.65)
+                       popoverPresentationController.sourceView = self.view
+                       popoverPresentationController.barButtonItem = button
+                       popoverPresentationController.delegate = self
+                       
+                       present(popoverContentController, animated: true, completion: nil)
+                   }
             }
         }
     }
-}
 
 
-extension BasicExampleViewController: SettingPopoverVCDelegate, UIPopoverPresentationControllerDelegate {
-    
-    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
-        return .none
-    }
-    
-    //UIPopoverPresentationControllerDelegate
-    func popoverPresentationControllerDidDismissPopover(_ popoverPresentationController: UIPopoverPresentationController) {
-    }
-    
-    func popoverPresentationControllerShouldDismissPopover(_ popoverPresentationController: UIPopoverPresentationController) -> Bool {
-        return true
-    }
-    
-    func didSelectectOption(index:Int){
-        if index == 0{
-            let settingViewController = self.storyboard!.instantiateViewController(withIdentifier: "SettingViewControllerViewController") as! SettingViewControllerViewController
-            settingViewController.NavTitleImg = self.navTitleImgView!.image!
-            settingViewController.languageArray = config?.language ?? [Language]()
-            self.navigationController?.pushViewController(settingViewController, animated: true)
-        }else{
-            
+    extension BasicExampleViewController: SettingPopoverVCDelegate, UIPopoverPresentationControllerDelegate {
+        
+        func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+            return .none
+        }
+        
+        //UIPopoverPresentationControllerDelegate
+        func popoverPresentationControllerDidDismissPopover(_ popoverPresentationController: UIPopoverPresentationController) {
+        }
+        
+        func popoverPresentationControllerShouldDismissPopover(_ popoverPresentationController: UIPopoverPresentationController) -> Bool {
+            return true
+        }
+        
+        func didSelectectOption(index:Int){
+            if index == 0{
+                let storyboard: UIStoryboard = UIStoryboard(name: "VirtualAssistantMain", bundle: nil)
+                let settingViewController = storyboard.instantiateViewController(withIdentifier: "SettingViewControllerViewController") as! SettingViewControllerViewController
+                settingViewController.NavTitleImg = self.navTitleImgView!.image!
+                settingViewController.languageArray = config?.language ?? [Language]()
+                self.navigationController?.pushViewController(settingViewController, animated: true)
+            }else{
+                
+            }
         }
     }
-}
 
 extension BasicExampleViewController: QuickReplyButtonCollectionViewCellDelegate, PropsCollectionViewCellDelegate, MultiOpsCollectionViewCellDelegate, BottomCollectionViewCellDelegate, QuickReplySSOCollectionViewCellDelegate,SSOWebVCViewControllerDelegate {
     func didTappedQuickReplyButton(type:String, text:String){
         self.isTypedMsg = false
         var deleteSections = [Int]()
         print(deleteSections.count)
-        //  self.sendDataToServer(data: text)
-        // let message = MockMessage(text: text, sender: currentSender(), messageId: UUID().uuidString, date: Date())
+      //  self.sendDataToServer(data: text)
+       // let message = MockMessage(text: text, sender: currentSender(), messageId: UUID().uuidString, date: Date())
         
         print(self.messageList.count)
         
         self.messageList.removeAll(where: { message in
-            switch message.kind {
-            case .quickReplyButton:
-                return true
-            default:
-                break
-            }
+               switch message.kind {
+                 case .quickReplyButton:
+                    return true
+                 default:
+                     break
+                 }
             return false
-        })
-        //    insertMessage(message)
+    })
+    //    insertMessage(message)
         for i in 0..<self.messageList.count {
             let message = self.messageList[i]
             switch message.kind {
@@ -541,13 +581,15 @@ extension BasicExampleViewController: QuickReplyButtonCollectionViewCellDelegate
         
         print(deleteSections.count)
         messagesCollectionView.deleteSections(IndexSet(deleteSections))
-        
-        //  print(self.messageList.count)
+
+       //  print(self.messageList.count)
     }
     func didTappedQuickReplySSOButton(ssoUrl: String) {
         print("SSSO Tappped")
         self.isTypedMsg = false
-        let popOverAlertVC = self.storyboard!.instantiateViewController(withIdentifier: "SSOWebVCViewController") as! SSOWebVCViewController
+        let storyboard: UIStoryboard = UIStoryboard(name: "VirtualAssistantMain", bundle: nil)
+
+        let popOverAlertVC = storyboard.instantiateViewController(withIdentifier: "SSOWebVCViewController") as! SSOWebVCViewController
         
         popOverAlertVC.delegate = self
         popOverAlertVC.ssoURLStr = ssoUrl
@@ -573,22 +615,22 @@ extension BasicExampleViewController: QuickReplyButtonCollectionViewCellDelegate
     
     func didTappedPropsButton(urlStr:String)
     {
-        //        let urlString = "example.com"
-        //        let validUrlString = dataText.hasPrefix("http") ? urlString : "http://\(urlString)"
+//        let urlString = "example.com"
+//        let validUrlString = dataText.hasPrefix("http") ? urlString : "http://\(urlString)"
         self.isTypedMsg = false
         let validUrlString = (urlStr.hasPrefix("http") || urlStr.hasPrefix("https")) ? urlStr : "https://\(urlStr)"
         
         if let url = URL(string: validUrlString){
-            if #available(iOS 10.0, *) {
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-            } else {
-                UIApplication.shared.openURL(url)
-            }
-            print("URL Selected: \(url)")
-        }
+        if #available(iOS 10.0, *) {
+                   UIApplication.shared.open(url, options: [:], completionHandler: nil)
+               } else {
+                   UIApplication.shared.openURL(url)
+               }
+               print("URL Selected: \(url)")
+    }
     }
     
-    
+     
     func didTappedMoreOptionButton(choices:[Choice]){
         self.isTypedMsg = false
         self.choices = choices
@@ -598,9 +640,9 @@ extension BasicExampleViewController: QuickReplyButtonCollectionViewCellDelegate
     func didTappedChoice(value:String){
         self.isTypedMsg = false
         self.sendDataToServer(data: value)
-        let message = MockMessage(text: value, sender: currentSender(), messageId: UUID().uuidString, date: Date())
-        insertMessage(message)
-        messagesCollectionView.scrollToBottom(animated: true)
+              let message = MockMessage(text: value, sender: currentSender(), messageId: UUID().uuidString, date: Date())
+              insertMessage(message)
+              messagesCollectionView.scrollToBottom(animated: true)
     }
     
     func didTappedThumbButton(thumbType: String) {
@@ -615,114 +657,114 @@ extension BasicExampleViewController: QuickReplyButtonCollectionViewCellDelegate
             isThumbsUp = false
         }
         
-        self.sendDataToServer(data: "")
+         self.sendDataToServer(data: "")
     }
 }
 
 // MARK: - POPOverTableViewDelegateDelegate
 extension BasicExampleViewController: UITableViewDataSource, UITableViewDelegate {
     
-    func openPopup() {
-        
-        alrController = UIAlertController(title: "Title\n\n\n\n\n\n\n\n\n\n", message: nil, preferredStyle: UIAlertController.Style.alert)
-        let margin:CGFloat = 8.0
-        let rect = CGRect(x: 5, y: 50, width: 262, height: 200)
-        let tableView = UITableView(frame: rect)
-        tableView.delegate = self
-        tableView.dataSource = self
-        tableView.backgroundColor = UIColor.clear
-        tableView.showsVerticalScrollIndicator = false
-        alrController?.view.addSubview(tableView)
-        
-        //            let somethingAction = UIAlertAction(title: "Something", style: UIAlertAction.Style.default, handler: {(alert: UIAlertAction!) in //println("something")
-        //
-        //            })
-        
-        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: {(alert: UIAlertAction!) in //println("cancel")
-            
-        })
-        
-        alrController!.addAction(cancelAction)
-        
-        self.present(alrController!, animated: true, completion:{})
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if(tableView ==  suggestionTable)
-        {
-            return self.suggestions?.count ?? 0
+   func openPopup() {
+
+            alrController = UIAlertController(title: "Title\n\n\n\n\n\n\n\n\n\n", message: nil, preferredStyle: UIAlertController.Style.alert)
+            let margin:CGFloat = 8.0
+    let rect = CGRect(x: 5, y: 50, width: 262, height: 200)
+            var tableView = UITableView(frame: rect)
+            tableView.delegate = self
+            tableView.dataSource = self
+            tableView.backgroundColor = UIColor.clear
+            tableView.showsVerticalScrollIndicator = false
+            alrController?.view.addSubview(tableView)
+
+//            let somethingAction = UIAlertAction(title: "Something", style: UIAlertAction.Style.default, handler: {(alert: UIAlertAction!) in //println("something")
+//
+//            })
+
+            let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: {(alert: UIAlertAction!) in //println("cancel")
+                    
+                })
+
+            alrController!.addAction(cancelAction)
+
+            self.present(alrController!, animated: true, completion:{})
         }
         
-        return self.choices?.count ?? 0
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
-        return UITableView.automaticDimension
-    }
-    
-    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        
-        let view = UIView()
-        view.backgroundColor = .clear
-        return view
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        if(tableView ==  suggestionTable)
-        {
-            let text = self.suggestions![indexPath.row].originalText
-            self.sendDataToServer(data: text!)
-            let message = MockMessage(text: text!, sender: currentSender(), messageId: UUID().uuidString, date: Date())
-            insertMessage(message)
-            messagesCollectionView.scrollToBottom(animated: true)
-            self.suggestionTable.isHidden = true
-            messageInputBar.inputTextView.text = ""
-            self.isTypedMsg = true
-            
-            return
-        }
-        let text = self.choices![indexPath.row].value
-        let message = MockMessage(text: text, sender: currentSender(), messageId: UUID().uuidString, date: Date())
-        insertMessage(message)
-        alrController?.dismiss(animated: true, completion: nil)
-        messagesCollectionView.scrollToBottom(animated: true)
-        self.sendDataToServer(data: text)
-        
-        
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        if(tableView ==  suggestionTable)
-        {
-            var cell : UITableViewCell!
-            cell = tableView.dequeueReusableCell(withIdentifier: "suggestionCell")
-            if cell == nil {
-                cell = UITableViewCell(style: .default, reuseIdentifier: "suggestionCell")
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            if(tableView ==  suggestionTable)
+            {
+                return self.suggestions?.count ?? 0
             }
-            cell.textLabel?.text = self.suggestions![indexPath.row].originalText
+            
+            return self.choices?.count ?? 0
+        }
+        
+        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+            
+            return UITableView.automaticDimension
+        }
+        
+        func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+            
+            let view = UIView()
+            view.backgroundColor = .clear
+            return view
+        }
+        
+        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            
+            if(tableView ==  suggestionTable)
+            {
+                var text = self.suggestions![indexPath.row].originalText
+                self.sendDataToServer(data: text!)
+                let message = MockMessage(text: text!, sender: currentSender(), messageId: UUID().uuidString, date: Date())
+                                 insertMessage(message)
+                                 messagesCollectionView.scrollToBottom(animated: true)
+                self.suggestionTable.isHidden = true
+                messageInputBar.inputTextView.text = ""
+                self.isTypedMsg = true
+
+                return
+            }
+            let text = self.choices![indexPath.row].value
+            let message = MockMessage(text: text, sender: currentSender(), messageId: UUID().uuidString, date: Date())
+            insertMessage(message)
+            alrController?.dismiss(animated: true, completion: nil)
+            messagesCollectionView.scrollToBottom(animated: true)
+            self.sendDataToServer(data: text)
+                 
+            
+        }
+        
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            
+            if(tableView ==  suggestionTable)
+            {
+                var cell : UITableViewCell!
+                cell = tableView.dequeueReusableCell(withIdentifier: "suggestionCell")
+                if cell == nil {
+                    cell = UITableViewCell(style: .default, reuseIdentifier: "suggestionCell")
+                }
+                cell.textLabel?.text = self.suggestions![indexPath.row].originalText
+                cell.backgroundColor = .clear
+                return cell
+            }
+            
+            var cell : UITableViewCell!
+            cell = tableView.dequeueReusableCell(withIdentifier: "popupcell")
+            if cell == nil {
+                cell = UITableViewCell(style: .default, reuseIdentifier: "popupcell")
+            }
+            
+            cell.textLabel?.text = self.choices![indexPath.row].label
             cell.backgroundColor = .clear
+
             return cell
         }
         
-        var cell : UITableViewCell!
-        cell = tableView.dequeueReusableCell(withIdentifier: "popupcell")
-        if cell == nil {
-            cell = UITableViewCell(style: .default, reuseIdentifier: "popupcell")
-        }
         
-        cell.textLabel?.text = self.choices![indexPath.row].label
-        cell.backgroundColor = .clear
         
-        return cell
-    }
     
-    
-    
-    
-    
+
 }
 
 // MARK: - MessagesDisplayDelegate
@@ -826,18 +868,18 @@ extension BasicExampleViewController: UITextViewDelegate {
     
     func textViewDidChange(_ textView: UITextView) {
         if !isFeedback{
-            if(textView.text.count > 3)
-            {
-                NSObject.cancelPreviousPerformRequests(withTarget: self,
-                                                       selector: #selector(self.callSuggestionsAPI(txt:)),
-                                                       object: nil)
-                
-                perform(#selector(self.callSuggestionsAPI(txt:)),
-                        with: textView.text, afterDelay: 0.1)
-            } else
-            {
-                self.suggestionTable.isHidden = true
-            }
+        if(textView.text.count > 3)
+        {
+            NSObject.cancelPreviousPerformRequests(withTarget: self,
+                                                   selector: #selector(self.callSuggestionsAPI(txt:)),
+                                                   object: nil)
+
+            perform(#selector(self.callSuggestionsAPI(txt:)),
+                    with: textView.text, afterDelay: 0.1)
+        } else
+        {
+            self.suggestionTable.isHidden = true
+        }
         }
     }
     
@@ -846,9 +888,9 @@ extension BasicExampleViewController: UITextViewDelegate {
         let currentString: NSString = textView.text! as NSString
         let newString: NSString =
             currentString.replacingCharacters(in: range, with: text) as NSString
-        //  print("\(newString) === \(newString.length)")
+      //  print("\(newString) === \(newString.length)")
         return newString.length <= maxLength
-        // return false
+       // return false
     }
     
 }

@@ -21,4 +21,5 @@ struct Assistent {
    static var botName = "Test QA Bot"
    static var vHost = "1a1WsVdKmnxgpMTZJwzIEJCRJNs.1.ti.com"
    static var userName = "123232321213"
+
 }

@@ -51,7 +51,7 @@ final internal class SampleData {
     
     var now = Date()
     
-    let messageImages: [UIImage] = [#imageLiteral(resourceName: "Image2"), #imageLiteral(resourceName: "user3")]
+    let messageImages: [UIImage] = []
     
     let emojis = [
         "👍",

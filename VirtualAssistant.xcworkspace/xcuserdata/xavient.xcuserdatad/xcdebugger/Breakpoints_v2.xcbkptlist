@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F8C22818-3D67-4109-9645-DC32DFD49DE5"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16584A8E-1EA0-4FED-AC9D-23AC29CC961A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtualAssistant/Framework Classes/Classes&amp;Cells/Chatbot.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "initWith(botId:serverEndPoint:port:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "16584A8E-1EA0-4FED-AC9D-23AC29CC961A - f31647397c7c8ecf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static VirtualAssistant.Chatbot.initWith(botId: Swift.String, serverEndPoint: Swift.String, port: Swift.String) -&gt; __C.UIViewController"
+                  moduleName = "VirtualAssistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xavient/Projects/VirtualAssistant/VirtualAssistant/Framework%20Classes/Classes&amp;Cells/Chatbot.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  uuid = "16584A8E-1EA0-4FED-AC9D-23AC29CC961A - f31647397c7c8ecf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static VirtualAssistant.Chatbot.initWith(botId: Swift.String, serverEndPoint: Swift.String, port: Swift.String) -&gt; __C.UIViewController"
+                  moduleName = "VirtualAssistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xavient/Projects/VirtualAssistant/VirtualAssistant/Framework%20Classes/Classes&amp;Cells/Chatbot.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "333">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85DDE349-AD4D-4EF3-9C34-23CAA628806E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtualAssistant/Framework Classes/Classes&amp;Cells/BasicExampleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
+            landmarkName = "addNavTitleImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "85DDE349-AD4D-4EF3-9C34-23CAA628806E - 1fe568a8e554b8b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VirtualAssistant.BasicExampleViewController.addNavTitleImage() -&gt; ()"
+                  moduleName = "VirtualAssistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xavient/Projects/VirtualAssistant/VirtualAssistant/Framework%20Classes/Classes&amp;Cells/BasicExampleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "313"
+                  endingLineNumber = "313"
+                  offsetFromSymbolStart = "714">
+               </Location>
+               <Location
+                  uuid = "85DDE349-AD4D-4EF3-9C34-23CAA628806E - 1fe568a8e554b8b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VirtualAssistant.BasicExampleViewController.addNavTitleImage() -&gt; ()"
+                  moduleName = "VirtualAssistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xavient/Projects/VirtualAssistant/VirtualAssistant/Framework%20Classes/Classes&amp;Cells/BasicExampleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "313"
+                  endingLineNumber = "313"
+                  offsetFromSymbolStart = "780">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
